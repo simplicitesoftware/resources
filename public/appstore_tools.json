@@ -1,0 +1,147 @@
+{
+	"date": "2019-03-09",
+	"name": "Tools",
+	"apps": [
+		{
+			"name": "Modificator",
+			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-modificator/master/resources/Disposition/default/modificator-logo.svg",
+			"description": "Modificator module",
+			"module_name": "Modificator",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-modificator.git\" } }"
+		},
+		{
+			"name": "Harden security",
+			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-modificator/master/resources/Disposition/default/modificator-logo.svg",
+			"description": "Module to improve security. Please read module description before clearing the cache.",
+			"module_name": "SimSecure",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimSecure.git\" } }"
+		},
+		{
+			"name": "Trello integration",
+			"logo": "https://github.com/simplicitesoftware/module-trello/blob/master/resources/Disposition/default/trello-module.svg?raw=true",
+			"screenshot": "https://github.com/simplicitesoftware/module-trello/blob/master/resources/Disposition/default/trello-module-screenshot.png?raw=true",
+			"description": "Trello integration examples (external object, business object, webhook)",
+			"module_name": "Trello",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-trello.git\" } }"
+		},
+		{
+			"name": "Slack integration",
+			"logo": "https://github.com/simplicitesoftware/module-slack/blob/master/resources/Disposition/default/slack-module.svg?raw=true",
+			"screenshot": "https://github.com/simplicitesoftware/module-slack/blob/master/resources/Disposition/default/slack-module-screenshot.png?raw=true",
+			"description": "Slack integration examples (external object, webhook)",
+			"module_name": "Slack",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-slack.git\" } }"
+		},
+		{
+			"name": "ElasticSearch Indexer",
+			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-elasticsearchindexer/master/resources/Disposition/default/elasticsearch-logo.svg",
+			"description": "ElasticSearch integration example (pre-alpha)",
+			"module_name": "ElasticSearchIndexer",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-elasticsearchindexer.git\" } }"
+		},
+		{
+			"name": "CMS",
+			"logo": "https://github.com/simplicitesoftware/module-cms/blob/master/resources/Disposition/default/cms-module.svg?raw=true",
+			"screenshot": "https://github.com/simplicitesoftware/module-cms/blob/master/resources/Disposition/default/cms-module-screenshot.png?raw=true",
+			"description": "Content Management System (grapejs integration)",
+			"module_name": "CMS",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-cms.git\" } }"
+		},
+		{
+			"name": "SalesForce remote objects",
+			"logo": "https://github.com/simplicitesoftware/module-salesforce/blob/master/resources/Disposition/default/salesforce-module.svg?raw=true",
+			"screenshot": "https://github.com/simplicitesoftware/module-salesforce/blob/master/resources/Disposition/default/salesforce-module-screenshot.png?raw=true",
+			"description": "SalesForce remote objects examples (business objects)",
+			"module_name": "SalesForce",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-salesforce.git\" } }"
+		},
+		{
+			"name": "OpenDataSoft remote objects",
+			"logo": "https://github.com/simplicitesoftware/module-opendatasoft/blob/master/resources/Disposition/default/opendatasoft-module.svg?raw=true",
+			"screenshot": "https://github.com/simplicitesoftware/module-opendatasoft/blob/master/resources/Disposition/default/opendatasoft-module-screenshot.png?raw=true",
+			"description": "OpenDataSoft remote objects examples (business objects)",
+			"module_name": "OpenDataSoft",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-opendatasoft.git\" } }"
+		},
+		{
+			"name": "ISO countries",
+			"logo": "https://docs.simplicite.io/logos/icon.svg",
+			"description": "ISO 3166 countries",
+			"module_name": "ISOCountries",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-isocountries.git\" } }"
+		},
+		{
+			"name": "ISO languages",
+			"logo": "https://docs.simplicite.io/logos/icon.svg",
+			"description": "ISO 639 languages",
+			"module_name": "ISOLanguages",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-isolanguages.git\" } }"
+		},
+		{
+			"name": "ISO currencies",
+			"logo": "https://docs.simplicite.io/logos/icon.svg",
+			"description": "ISO 4217 currencies",
+			"module_name": "ISOCurrencies",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-isocurrencies.git\" } }"
+		},
+		{
+			"name": "Currencies conversion rates",
+			"logo": "https://docs.simplicite.io/logos/icon.svg",
+			"description": "Currencies conversion rates using Fixer.io API. Requires ISO currencies module.",
+			"module_name": "Fixer",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-fixer.git\" } }"
+		},
+		{
+			"name": "XTab packaging",
+			"logo": "https://docs.simplicite.io/logos/icon.svg",
+			"description": "XTab packaging module.",
+			"module_name": "XTab",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-xtab.git\" } }"
+		},
+		{
+			"name": "Keycloak config",
+			"logo": "https://docs.simplicite.io/logos/icon.svg",
+			"description": "Keycloak module with parameters template and synchronization.",
+			"module_name": "Keycloak",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-keycloak.git\" } }"
+		},
+		{
+			"name": "HTML to PDF",
+			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
+			"description": "HTML to PDF tester tool",
+			"url": "https://community.simplicite.io/t/pdf-publication/2159/3",
+			"module_name": "Html2Pdf",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-html2pdf.git\" } }"
+		},
+		{
+			"name": "Mail Tester",
+			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
+			"description": "Mail Tester Tool",
+			"module_name": "MailTester",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"
+		},
+		{
+			"name": "Theme Etat (France)",
+			"logo": "https://github.com/simplicitesoftware/module-themeetat/blob/master/files/Theme/ThemeEtat/favicon.png?raw=true",
+			"description": "Theme Etat (France) inspiré du Système de Design de l'Etat",
+			"module_name": "ThemeEtat",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }",
+			"min_version": "5.2"
+		},
+		{
+			"name": "OpenAPI / Swagger tools",
+			"logo": "https://github.com/simplicitesoftware/module-openapitools/blob/master/resources/Disposition/default/openapi.svg?raw=true",
+			"description": "OpenAPI / Swagger tools",
+			"module_name": "OpenAPITools",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-openapitools.git\" } }",
+			"min_version": "5.1"
+		},
+		{
+			"name": "Features",
+			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
+			"description": "A module containing implementation of major features for testing purposes",
+			"module_name": "SimFeatures",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }"
+		}
+	]
+}

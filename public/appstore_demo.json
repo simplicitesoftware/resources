@@ -1,0 +1,86 @@
+{
+	"date": "2022-06-08",
+	"name": "Demo",
+	"apps": [
+		{
+			"name": "Demo",
+			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
+			"screenshot": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module-screenshot.png?raw=true",
+			"description": "Order management demo",
+			"url": "https://simplicitesoftware.github.io/module-demo/",
+			"module_name": "Demo",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }",
+			"min_version": "5.1"
+		},
+		{
+			"name": "Demo WebSite frontend",
+			"logo": "https://github.com/simplicitesoftware/module-demo-website/blob/master/resources/Disposition/default/demowebsite-module.svg?raw=true",
+			"screenshot": "https://github.com/simplicitesoftware/module-demo-website/blob/master/resources/Disposition/default/demowebsite-module-screenshot.png?raw=true",
+			"description": "WebSite frontend example for the order management demo",
+			"module_name": "DemoWebSite",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-website.git\" } }",
+			"min_version": "5.1"
+		},
+		{
+			"name": "Demo Mustache frontend page",
+			"logo": "https://github.com/simplicitesoftware/module-demo-mustache/blob/master/resources/Disposition/default/demomustache-module.svg?raw=true",
+			"screenshot": "https://github.com/simplicitesoftware/module-demo-mustache/blob/master/resources/Disposition/default/demomustache-module-screenshot.png?raw=true",
+			"description": "Frontend example based on Mustache templating for the order management demo",
+			"module_name": "DemoMustache",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-mustache.git\" } }",
+			"min_version": "5.1"
+		},
+		{
+			"name": "Demo Vue.js frontend page",
+			"logo": "https://github.com/simplicitesoftware/module-demo-vuejs/blob/master/resources/Disposition/default/demovuejs-module.svg?raw=true",
+			"screenshot": "https://github.com/simplicitesoftware/module-demo-vuejs/blob/master/resources/Disposition/default/demovuejs-module-screenshot.png?raw=true",
+			"description": "Frontend example based on the Vue.js framework for the order management demo",
+			"module_name": "DemoVueJS",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-vuejs.git\" } }",
+			"min_version": "5.1"
+		},
+		{
+			"name": "Demo JS lib custom UI page",
+			"logo": "https://github.com/simplicitesoftware/module-demo-jslib/blob/master/resources/Disposition/default/demojslib-module.svg?raw=true",
+			"screenshot": "https://github.com/simplicitesoftware/module-demo-jslib/blob/master/resources/Disposition/default/demojslib-module-screenshot.png?raw=true",
+			"description": "Custom page example based on the contrib JS lib for the order management demo",
+			"module_name": "DemoJSLib",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-jslib.git\" } }",
+			"min_version": "5.1"
+		},
+		{
+			"name": "Demo dashboard",
+			"logo": "https://github.com/simplicitesoftware/module-demo-dashboard/blob/master/resources/Disposition/default/demodashboard-module.svg?raw=true",
+			"screenshot": "https://github.com/simplicitesoftware/module-demo-dashboard/blob/master/resources/Disposition/default/demodashboard-module-screenshot.png?raw=true",
+			"description": "Google charts dashboard for the order management demo",
+			"module_name": "DemoDashboard",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-dashboard.git\" } }",
+			"min_version": "5.1"
+		},
+		{
+			"name": "Demo addons",
+			"logo": "https://github.com/simplicitesoftware/module-demo-addons/blob/master/resources/Disposition/default/demoaddons-module.svg?raw=true",
+			"screenshot": "https://github.com/simplicitesoftware/module-demo-addons/blob/master/resources/Disposition/default/demoaddons-module-screenshot.png?raw=true",
+			"description": "Addons for the order management demo",
+			"module_name": "DemoAddons",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-addons.git\" } }",
+			"min_version": "5.1"
+		},
+		{
+			"name": "Demo custom APIs",
+			"logo": "https://github.com/simplicitesoftware/module-demo-apis/blob/master/resources/Disposition/default/demoapis-module.svg?raw=true",
+			"description": "Custom APIs examples for the order management demo",
+			"module_name": "DemoAPIs",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-apis.git\" } }",
+			"min_version": "5.1"
+		},
+		{
+			"name": "Demo Data-link",
+			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-demo-datalink/main/resources/Disposition/default/demo-datalink-module.svg",
+			"description": "DataLink example for the order management demo",
+			"module_name": "DemoDataLink",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-datalink.git\" } }",
+			"min_version": "5.3"
+		}
+	]
+}

@@ -17,6 +17,13 @@
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimSecure.git\" } }"
 		},
 		{
+			"name": "Adapters",
+			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-SimAdapters/master/resources/Disposition/default/appstore-image.svg",
+			"description": "Module containing some adapters to import data models",
+			"module_name": "SimAdapters",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }"
+		},
+		{
 			"name": "Trello integration",
 			"logo": "https://github.com/simplicitesoftware/module-trello/blob/master/resources/Disposition/default/trello-module.svg?raw=true",
 			"screenshot": "https://github.com/simplicitesoftware/module-trello/blob/master/resources/Disposition/default/trello-module-screenshot.png?raw=true",

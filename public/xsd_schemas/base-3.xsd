@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--
+== SIMPLICITE - runtime & framework
+== http://www.simplicite.fr
+== Versions 3.x
+== Copyright(c)2006-2016 Simplicite Software. All rights reserved.
+-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.simplicite.fr/base" version="3"
+	targetNamespace="http://www.simplicite.fr/base" elementFormDefault="qualified">
+
+	<xsd:element name="simplicite">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="object" type="object" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+			<xsd:anyAttribute processContents="skip" />
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:complexType name="object">
+		<xsd:sequence>
+			<xsd:element name="name" type="xsd:string" minOccurs="1" maxOccurs="1" />
+			<xsd:element name="action" type="action" minOccurs="1" maxOccurs="1" />
+			<xsd:element name="data" type="data" minOccurs="0" maxOccurs="unbounded" />
+		</xsd:sequence>
+		<xsd:anyAttribute processContents="skip" />
+	</xsd:complexType>
+
+	<xsd:complexType name="data">
+		<xsd:sequence>
+			<xsd:any minOccurs="0" maxOccurs="unbounded" processContents="skip" />
+		</xsd:sequence>
+		<xsd:anyAttribute processContents="skip" />
+	</xsd:complexType>
+
+	<xsd:complexType name="action" mixed="true">
+		<xsd:attribute name="if">
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="exists"></xsd:enumeration>
+					<xsd:enumeration value="not exists"></xsd:enumeration>
+				</xsd:restriction>
+			</xsd:simpleType>
+		</xsd:attribute>
+	</xsd:complexType>
+	
+</xsd:schema>

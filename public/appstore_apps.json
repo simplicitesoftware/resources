@@ -119,6 +119,13 @@
 			"description": "Internal asset management (Demandes)",
 			"module_name": "Demandes",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demandes.git\" } }"
+		},
+		{
+			"name": "Product Management",
+			"logo": "https://github.com/simplicitesoftware/module_project_management/blob/master/resources/Disposition/default/project-management-module.png?raw=true",
+			"description": "Gantt and tasks management",
+			"module_name": "ProjectManagement",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module_project_management.git\" } }"
 		}
 	]
 }

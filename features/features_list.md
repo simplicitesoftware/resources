@@ -1,67 +1,120 @@
+---
+markmap:
+  initialExpandLevel: 2
+  maxWidth: 300
+  embedAssets: true
+  pan: false
+---
+
 # Simplicité
 
-## Applications de gestion
+## Web App
 
-### Listes
+### Lists
 
-- tri (1 à n colonnes)
-- pagination
-- recherche 
-  - en colonne
-  - ancrée
-  - détachée
-  - prédéfinie
-- vue en vignettes
-- vue en banettes
-- préférences
-  - champs affichés
-    - colonnes de liste
-    - recherche
-  - ordre des champs
-  - boutons d'action
+- multi-column ordering
+- multiple presentation options
+  - table view
+  - cards view (mobile-friendly)
+  - extended view
+- list pagination
+- list search 
+  - list search presentation options
+    - search fields on columns
+    - floating search box
+    - anchored search box
+  - advanced search assistant
+  - predefined searches
+  - my searches
+- list preferences
+  - hide / display / re-order fields
+    - in list
+    - in search
+  - hide / display action buttons
 - exports
   - CSV
   - Excel
   - PDF
-  - sur mesure (publications)
-- actions "en masse"
-  - édition
-  - suppression
+  - **Custom**
+- bulk actions
+  - edit
+  - delete
+  - merge
   - sur mesure
-- groupement (par type, sur le produit)
+- group by
+  - in menu
+  - in list
   
-### Formulaires
+### Forms
 
-- Vue simple / étendue
-- Navigation liste mère (précédent / suivant)
-- Attributs 
-  - types prédéfinis
-    - datepicker
-    - slider
-    - bloc-notes
-    - grid
-    - énumérés simples & mutliples
-    - etc etc (TODO)
-    - personnalisé (regex)
-    - objet référencé
-      - autocomplétion
-      - recherche
-- Template
-  - zones 
-  - colonnes
-  - responsive
-- Objet référençant
-  - panels en colonnes
-  - panels en onglets
-  - accordéon
-  - intégrés dans le formulaire
-  - relations N:N
-    - association
-    - pillbox
-- Liens directs
-- Commentaires sociaux
+- Field Types
+    - Text
+      - simple short
+      - simple long
+      - code
+      - markdown editor
+      - html WYSIWYG
+      - validated text (**Regex**)
+      - grid (JSON)
+    - Numbers
+      - integers
+      - decimal
+      - monetary
+      - progress bar
+      - stars
+      - calculator
+    - Date & Time (with pickers)
+      - date
+      - time
+      - date & time
+    - Selectors (single / multi)
+      - Select box
+      - Radio buttons
+      - Checkboxes
+      - Pillboxes
+      - Boolean 
+    - Files
+      - single
+      - multiple
+      - image
+   - Special fields
+     - URL
+     - Phone number
+     - Email
+     - Color selector
+     - Password
+     - Geographical coordinates
+     - Notepad
+  - Referenced object
+    - Auto-Complete
+    - List selector
+- Display organization
+  - responsive columns
+  - field groups (areas, optionally collapsible)
+  - tabs
+  - extended view
+- Child lists (refencing this form)
+  - display options
+    - column view
+    - tab view
+    - collapsible view (accordion)
+    - in-form embeded list
+    - in-form pillbox 
+  - association function
+- Direct link
+- Social posts
 
-### Recherche
+### Search
+
+- Object search
+  - searchable fields
+  - date / period search
+  - geographical search
+  - advanced query builder
+  - predefined search
+- Global search
+  - searchable fields on searchable objects
+  
 
 - recherche sur colonnes
     - recherche sur attributs **recherchables**

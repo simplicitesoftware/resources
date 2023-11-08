@@ -71,6 +71,13 @@
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-opendatasoft.git\" } }"
 		},
 		{
+			"name": "La Poste",
+			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-SimAdapters/master/resources/Disposition/default/appstore-image.svg",
+			"description": "La Poste Datanova's integrations ('Service' Object)",
+			"module_name": "SimLaPoste",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimLaPoste.git\" } }"
+		},
+		{
 			"name": "ISO countries",
 			"logo": "https://docs.simplicite.io/logos/icon.svg",
 			"description": "ISO 3166 countries",

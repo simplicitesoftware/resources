@@ -35,11 +35,9 @@ curl -X POST \
   http://purge.jsdelivr.net/ \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
-  -d '{
-"path": [
-"/npm/test",
-"/npm/test2",
-"/npm/test3"
-]
-}'
+  -d '{"path":[
+    "/gh/simplicitesoftware/resources@latest/public/appstore_demo.json",
+    "/gh/simplicitesoftware/resources@latest/public/appstore_apps.json",
+    "/gh/simplicitesoftware/resources@latest/public/appstore_tools.json"
+    ]}'
 ```

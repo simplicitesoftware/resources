@@ -72,8 +72,8 @@
 		},
 		{
 			"name": "La Poste",
-			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-SimAdapters/master/resources/Disposition/default/appstore-image.svg",
-			"description": "La Poste Datanova's integrations ('Service' Object)",
+			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-SimLaPoste/master/resources/Disposition/default/module-laposte.svg",
+			"description": "La Poste Datanova's integrations (Postal Codes Service Object)",
 			"module_name": "SimLaPoste",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimLaPoste.git\" } }"
 		},

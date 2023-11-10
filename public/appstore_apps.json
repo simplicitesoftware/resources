@@ -79,20 +79,6 @@
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-burgers.git\" } }"
 		},
 		{
-			"name": "Qualification Enums",
-			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-qualification/master/resources/Disposition/default/qualif-module.svg",
-			"description": "Mandatory Enum Module for Qualification",
-			"module_name": "Qualification_Enum",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-qualification-enum.git\" } }"
-		},
-		{
-			"name": "Qualification App",
-			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-qualification/master/resources/Disposition/default/qualif-module.svg",
-			"description": "Quizz app (backend + frontend)",
-			"module_name": "Qualification",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-qualification.git\" } }"
-		},
-		{
 			"name": "Customer Relationship Management",
 			"logo": "https://github.com/simplicitesoftware/module-rh/blob/master/resources/Disposition/default/rh-module.svg?raw=true",
 			"description": "Example CRM module",

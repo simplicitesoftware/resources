@@ -108,7 +108,7 @@
 		},
 		{
 			"name": "Product Management",
-			"logo": "https://github.com/simplicitesoftware/module_project_management/blob/master/resources/Disposition/default/project-management-module.png?raw=true",
+			"logo": "https://github.com/simplicitesoftware/module_project_management/blob/master/resources/Disposition/default/product_management.svg?raw=true",
 			"description": "Gantt and tasks management",
 			"module_name": "ProjectManagement",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module_project_management.git\" } }"

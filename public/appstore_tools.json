@@ -10,7 +10,7 @@
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-modificator.git\" } }"
 		},
 		{
-			"name": "Harden security",
+			"name": "Hardened security",
 			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-modificator/master/resources/Disposition/default/modificator-logo.svg",
 			"description": "Module to improve security. Please read module description before clearing the cache.",
 			"module_name": "SimSecure",

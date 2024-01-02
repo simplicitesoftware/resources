@@ -5,35 +5,35 @@
 		{
 			"name": "Adapters",
 			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-SimAdapters/master/resources/Disposition/default/appstore-image.svg",
-			"description": "Module containing some adapters to import data models",
+			"description": "Import an app's data model from another app (open an issue on github for extra  app / format support)",
 			"module_name": "SimAdapters",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }"
 		},
 		{
 			"name": "Features",
 			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
-			"description": "A module containing implementation of major features for testing purposes",
+			"description": "Implementation of major features for testing purposes",
 			"module_name": "SimFeatures",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }"
 		},
 		{
 			"name": "Modificator",
 			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-modificator/master/resources/Disposition/default/modificator-logo.svg",
-			"description": "Modificator module",
+			"description": "Let power users update translations and lists of values.",
 			"module_name": "Modificator",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-modificator.git\" } }"
 		},
 		{
 			"name": "Mail Tester",
 			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
-			"description": "Mail Tester Tool",
+			"description": "Trigger email sendings without bothering about business logic.",
 			"module_name": "MailTester",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"
 		},
 		{
 			"name": "Hardened security",
 			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-modificator/master/resources/Disposition/default/modificator-logo.svg",
-			"description": "Module to improve security. Please read module description before clearing the cache.",
+			"description": "Apply enhanced app-level security guidelines (does NOT apply infrastructure / reverse proxy / server level security guidelines). Please read module description before clearing the cache.",
 			"module_name": "SimSecure",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimSecure.git\" } }"
 		},

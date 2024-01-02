@@ -3,6 +3,20 @@
 	"name": "Tools",
 	"apps": [
 		{
+			"name": "Adapters",
+			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-SimAdapters/master/resources/Disposition/default/appstore-image.svg",
+			"description": "Module containing some adapters to import data models",
+			"module_name": "SimAdapters",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }"
+		},
+		{
+			"name": "Features",
+			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
+			"description": "A module containing implementation of major features for testing purposes",
+			"module_name": "SimFeatures",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }"
+		},
+		{
 			"name": "Modificator",
 			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-modificator/master/resources/Disposition/default/modificator-logo.svg",
 			"description": "Modificator module",
@@ -10,18 +24,18 @@
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-modificator.git\" } }"
 		},
 		{
+			"name": "Mail Tester",
+			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
+			"description": "Mail Tester Tool",
+			"module_name": "MailTester",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"
+		},
+		{
 			"name": "Hardened security",
 			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-modificator/master/resources/Disposition/default/modificator-logo.svg",
 			"description": "Module to improve security. Please read module description before clearing the cache.",
 			"module_name": "SimSecure",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimSecure.git\" } }"
-		},
-		{
-			"name": "Adapters",
-			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-SimAdapters/master/resources/Disposition/default/appstore-image.svg",
-			"description": "Module containing some adapters to import data models",
-			"module_name": "SimAdapters",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }"
 		},
 		{
 			"name": "Trello integration",
@@ -128,13 +142,6 @@
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-html2pdf.git\" } }"
 		},
 		{
-			"name": "Mail Tester",
-			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
-			"description": "Mail Tester Tool",
-			"module_name": "MailTester",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"
-		},
-		{
 			"name": "Theme Etat (France)",
 			"logo": "https://github.com/simplicitesoftware/module-themeetat/blob/master/files/Theme/ThemeEtat/favicon.png?raw=true",
 			"description": "Theme Etat (France) inspiré du Système de Design de l'Etat",
@@ -149,13 +156,6 @@
 			"module_name": "OpenAPITools",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-openapitools.git\" } }",
 			"min_version": "5.1"
-		},
-		{
-			"name": "Features",
-			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
-			"description": "A module containing implementation of major features for testing purposes",
-			"module_name": "SimFeatures",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }"
 		}
 	]
 }

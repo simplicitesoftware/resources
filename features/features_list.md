@@ -112,56 +112,43 @@ markmap:
   - geographical search
   - advanced query builder
   - predefined search
+  - saved search
 - Global search
-  - searchable fields on searchable objects
-  
+  - multiple indexation engines
+    - simple
+    - lucene (elastic search)
+    
+### State Transitions
 
-- recherche sur colonnes
-    - recherche sur attributs **recherchables**
-    - assistant syntaxe avancée (supérieur à, se terminant par, etc)
-    - recherche prédéfinie = enregistrement d'une recherche sur colonnes
-        - personnelle
-        - partagée
-- recherche globale
-    - recherche sur attributs **indexés**
-    - prévisualisation des résultats
-    - disponible au niveau de :
-        - l'objet (recherche "tous attributs indexés")
-        - l'application (recherche "tous objets indexés / tous attributs indexés")
-    - moteurs d'indexation au choix
-        - Simple (concaténation champs indexés)
-        - Avancé (Utilisation d'Apache Lucene, comme Elastic Search)
+- Kanban view
+- Metrics
+- Special styling
+- Grantable
 
-### Transitions d'états
+### Alternative navigation and reporting
 
-- banettes
-- métriques
-- styles
-- habilitations
+#### Calendar view
 
-### Navigations alternatives et Reporting
+- for objects with begin / end date
+- direct access to the object
+- date updating from calendar
+- object styling in calendar
 
-#### Affichage Calendaire
+#### Gantt view
 
-- à destination des objets à date de début / date de fin
-- accès direct à l'objet
-- modification dates directement depuis l'agenda
-- colorisation selon l'état (si styles d'états)
+#### Canvas view (modeler)
 
-#### Affichage Gantt
+- view objects in a canvas
+- view relationships as links
+- examples:
+  - UML models
+  - IT architecture models
 
-#### Affichage Graphique (modeler)
+#### Cross tables
 
-- représentation des données sous forme de "boîtes" et de "liens" cliquables
-- exemples pertinents:
-  - représentation du système informatique
-  - représentation du modèle UML
-
-#### Tableaux Croisés Dynamiques
-
-- souplesse de réarangement des champs (affichage, colonnes/lignes etc)
-- réalisation de graphiques
-- export 
+- axes flexibility for the user
+- graph report building
+- exports
   - CSV
   - JSON
   - XML

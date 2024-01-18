@@ -156,6 +156,13 @@
 			"module_name": "OpenAPITools",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-openapitools.git\" } }",
 			"min_version": "5.1"
+		},
+		{
+			"name": "AI integrations (experimental)",
+			"description": "ChatGPT LLM ChatBot tests.",
+			"module_name": "ChatGPT",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module_ai.git\" } }",
+			"min_version": "5.3"
 		}
 	]
 }

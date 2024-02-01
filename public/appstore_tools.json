@@ -3,25 +3,39 @@
 	"name": "Tools",
 	"apps": [
 		{
+			"name": "Adapters",
+			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-SimAdapters/master/resources/Disposition/default/appstore-image.svg",
+			"description": "Import an app's data model from another app (open an issue on github for extra  app / format support)",
+			"module_name": "SimAdapters",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }"
+		},
+		{
+			"name": "Features",
+			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
+			"description": "Implementation of major features for testing purposes",
+			"module_name": "SimFeatures",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }"
+		},
+		{
 			"name": "Modificator",
 			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-modificator/master/resources/Disposition/default/modificator-logo.svg",
-			"description": "Modificator module",
+			"description": "Let power users update translations and lists of values.",
 			"module_name": "Modificator",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-modificator.git\" } }"
 		},
 		{
-			"name": "Hardened security",
-			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-modificator/master/resources/Disposition/default/modificator-logo.svg",
-			"description": "Module to improve security. Please read module description before clearing the cache.",
-			"module_name": "SimSecure",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimSecure.git\" } }"
+			"name": "Mail Tester",
+			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
+			"description": "Trigger email sendings without bothering about business logic.",
+			"module_name": "MailTester",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"
 		},
 		{
-			"name": "Adapters",
-			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-SimAdapters/master/resources/Disposition/default/appstore-image.svg",
-			"description": "Module containing some adapters to import data models",
-			"module_name": "SimAdapters",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }"
+			"name": "Hardened security",
+			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-modificator/master/resources/Disposition/default/modificator-logo.svg",
+			"description": "Apply enhanced app-level security guidelines (does NOT apply infrastructure / reverse proxy / server level security guidelines). Please read module description before clearing the cache.",
+			"module_name": "SimSecure",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimSecure.git\" } }"
 		},
 		{
 			"name": "Trello integration",
@@ -128,13 +142,6 @@
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-html2pdf.git\" } }"
 		},
 		{
-			"name": "Mail Tester",
-			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
-			"description": "Mail Tester Tool",
-			"module_name": "MailTester",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"
-		},
-		{
 			"name": "Theme Etat (France)",
 			"logo": "https://github.com/simplicitesoftware/module-themeetat/blob/master/files/Theme/ThemeEtat/favicon.png?raw=true",
 			"description": "Theme Etat (France) inspiré du Système de Design de l'Etat",
@@ -151,11 +158,11 @@
 			"min_version": "5.1"
 		},
 		{
-			"name": "Features",
-			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
-			"description": "A module containing implementation of major features for testing purposes",
-			"module_name": "SimFeatures",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }"
+			"name": "AI integrations (experimental)",
+			"description": "ChatGPT LLM ChatBot tests.",
+			"module_name": "ChatGPT",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module_ai.git\" } }",
+			"min_version": "5.3"
 		}
 	]
 }

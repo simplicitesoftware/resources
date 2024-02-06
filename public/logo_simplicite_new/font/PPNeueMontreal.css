@@ -1,0 +1,51 @@
+@font-face {
+	font-family: PPNeueMontreal;
+	src: url('PPNeueMontreal-Regular.woff2') format('woff2'),
+		url('PPNeueMontreal-Regular.woff') format('woff'),
+		url('PPNeueMontreal-Regular.woff') format('truetype'),
+		url('PPNeueMontreal-Regular.otf') format('opentype');
+	font-weight: normal; /* 400 */
+}
+@font-face {
+	font-family: PPNeueMontreal;
+	src: url('PPNeueMontreal-SemiBold.woff2') format('woff2'),
+		url('PPNeueMontreal-SemiBold.woff') format('woff'),
+		url('PPNeueMontreal-SemiBold.woff') format('truetype'),
+		url('PPNeueMontreal-SemiBold.otf') format('opentype');
+	font-weight: bold; /* 700 */
+}
+@font-face {
+	font-family: PPNeueMontreal;
+	src: url('PPNeueMontreal-Bold.woff2') format('woff2'),
+		url('PPNeueMontreal-Bold.woff') format('woff'),
+		url('PPNeueMontreal-Bold.woff') format('truetype'),
+		url('PPNeueMontreal-Bold.otf') format('opentype');
+	font-weight: 900;
+}
+@font-face {
+	font-family: PPNeueMontreal;
+	src: url('PPNeueMontreal-Medium.woff2') format('woff2'),
+		url('PPNeueMontreal-Medium.woff') format('woff'),
+		url('PPNeueMontreal-Medium.woff') format('truetype'),
+		url('PPNeueMontreal-Medium.otf') format('opentype');
+	font-weight: 600;
+}
+@font-face {
+	font-family: PPNeueMontreal;
+	src: url('PPNeueMontreal-Light.woff2') format('woff2'),
+		url('PPNeueMontreal-Light.woff') format('woff'),
+		url('PPNeueMontreal-Light.woff') format('truetype'),
+		url('PPNeueMontreal-Light.otf') format('opentype');
+	font-weight: 300;
+}
+@font-face {
+	font-family: PPNeueMontreal;
+	src: url('PPNeueMontreal-Thin.woff2') format('woff2'),
+		url('PPNeueMontreal-Thin.woff') format('woff'),
+		url('PPNeueMontreal-Thin.woff') format('truetype'),
+		url('PPNeueMontreal-Thin.otf') format('opentype');
+	font-weight: 100;
+}
+body {
+	font-family: PPNeueMontreal, Helvetica, Arial, sans-serif;
+}

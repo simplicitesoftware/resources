@@ -1,0 +1,19 @@
+{
+  "background_color": "#FFFFFF",
+  "display": "fullscreen",
+  "name": "Simplicité Software",
+  "short_name": "Simplicité Software",
+  "description": "Simplicité Software",
+  "start_url": ".",
+  "icons": [
+    { "sizes": "32x32",   "src": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@master/public/logo_simplicite/app/full/icon32.png",  "type": "image/png" },
+    { "sizes": "48x48",   "src": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@master/public/logo_simplicite/app/full/icon48.png",  "type": "image/png" },
+    { "sizes": "64x64",   "src": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@master/public/logo_simplicite/app/full/icon64.png",  "type": "image/png" },
+    { "sizes": "96x96",   "src": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@master/public/logo_simplicite/app/full/icon96.png",  "type": "image/png" },
+    { "sizes": "128x128", "src": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@master/public/logo_simplicite/app/full/icon128.png", "type": "image/png" },
+    { "sizes": "144x144", "src": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@master/public/logo_simplicite/app/full/icon144.png", "type": "image/png" },
+    { "sizes": "192x192", "src": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@master/public/logo_simplicite/app/full/icon192.png", "type": "image/png" },
+    { "sizes": "256x256", "src": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@master/public/logo_simplicite/app/full/icon256.png", "type": "image/png" }
+  ],
+  "related_applications": [{ "platform": "web" }]
+}

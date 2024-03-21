@@ -10,8 +10,7 @@
 			"url": "https://simplicitesoftware.github.io/module-demo/",
 			"module_name": "Demo",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }",
-			"min_version": "5.1",
-			"max_version": "6.0"
+			"min_version": "5.1"
 		},
 		{
 			"name": "Demo (v6)",
@@ -83,8 +82,7 @@
 			"description": "Custom APIs examples for the order management demo (for Simplicité v5)",
 			"module_name": "DemoAPIs",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-apis.git\" } }",
-			"min_version": "5.1",
-			"max_version": "6.0"
+			"min_version": "5.1"
 		},
 		{
 			"name": "Demo custom APIs (v6)",

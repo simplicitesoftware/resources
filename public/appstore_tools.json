@@ -143,7 +143,7 @@
 		},
 		{
 			"name": "Theme Etat (France)",
-			"logo": "https://github.com/simplicitesoftware/module-themeetat/blob/master/files/Theme/ThemeEtat/favicon.png?raw=true",
+			"logo": "https://github.com/simplicitesoftware/module-themeetat/blob/master/resources/Disposition/default/themeetat-module.svg?raw=true",
 			"description": "Theme Etat (France) inspiré du Système de Design de l'Etat",
 			"module_name": "ThemeEtat",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }",

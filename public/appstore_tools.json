@@ -142,17 +142,17 @@
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-html2pdf.git\" } }"
 		},
 		{
-			"name": "Theme Etat V5 (France)",
+			"name": "Theme Etat (France) v5",
 			"logo": "https://github.com/simplicitesoftware/module-themeetat/blob/master/resources/Disposition/default/themeetat-module.svg?raw=true",
-			"description": "Theme Etat pour Simplicité v5 inspiré du Système de Design de l'Etat Français (DSFR)",
+			"description": "Theme Etat inspiré du Système de Design de l'Etat Français (pour Simplicité v5 )",
 			"module_name": "ThemeEtat",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }",
 			"min_version": "5.2"
 		},
 		{
-			"name": "Theme Etat V6 (France)",
-			"logo": "https://github.com/simplicitesoftware/module-themeetat/blob/master/resources/Disposition/default/themeetat-module.svg?raw=true",
-			"description": "Theme Etat pour Simplicité v6 inspiré du Système de Design de l'Etat Français (DSFR)",
+			"name": "Theme Etat (France) v6",
+			"logo": "https://github.com/simplicitesoftware/module-themeetat/blob/v6/resources/Disposition/default/themeetat-module.svg?raw=true",
+			"description": "Theme Etat inspiré du Système de Design de l'Etat Français (pour Simplicité v6)",
 			"module_name": "ThemeEtat",
 			"module_settings": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }",
 			"min_version": "6.0"

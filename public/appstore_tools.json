@@ -142,15 +142,16 @@
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-html2pdf.git\" } }"
 		},
 		{
-			"name": "Theme Etat (France) v5",
+			"name": "Theme Etat Français (v5)",
 			"logo": "https://github.com/simplicitesoftware/module-themeetat/blob/master/resources/Disposition/default/themeetat-module.svg?raw=true",
 			"description": "Theme Etat inspiré du Système de Design de l'Etat Français (pour Simplicité v5 )",
 			"module_name": "ThemeEtat",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }",
-			"min_version": "5.2"
+			"min_version": "5.2",
+			"max_version": "5.3"
 		},
 		{
-			"name": "Theme Etat (France) v6",
+			"name": "Theme Etat Français (v6)",
 			"logo": "https://github.com/simplicitesoftware/module-themeetat/blob/v6/resources/Disposition/default/themeetat-module.svg?raw=true",
 			"description": "Theme Etat inspiré du Système de Design de l'Etat Français (pour Simplicité v6)",
 			"module_name": "ThemeEtat",

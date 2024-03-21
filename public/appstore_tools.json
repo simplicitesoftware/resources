@@ -56,7 +56,7 @@
 		{
 			"name": "ElasticSearch Indexer",
 			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-elasticsearchindexer/master/resources/Disposition/default/elasticsearch-logo.svg",
-			"description": "ElasticSearch integration example (pre-alpha)",
+			"description": "ElasticSearch integration example",
 			"module_name": "ElasticSearchIndexer",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-elasticsearchindexer.git\" } }"
 		},

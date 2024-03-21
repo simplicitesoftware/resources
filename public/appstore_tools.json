@@ -142,12 +142,20 @@
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-html2pdf.git\" } }"
 		},
 		{
-			"name": "Theme Etat (France)",
+			"name": "Theme Etat V5 (France)",
 			"logo": "https://github.com/simplicitesoftware/module-themeetat/blob/master/resources/Disposition/default/themeetat-module.svg?raw=true",
-			"description": "Theme Etat (France) inspiré du Système de Design de l'Etat",
+			"description": "Theme Etat pour Simplicité v5 inspiré du Système de Design de l'Etat Français (DSFR)",
 			"module_name": "ThemeEtat",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }",
 			"min_version": "5.2"
+		},
+		{
+			"name": "Theme Etat V6 (France)",
+			"logo": "https://github.com/simplicitesoftware/module-themeetat/blob/master/resources/Disposition/default/themeetat-module.svg?raw=true",
+			"description": "Theme Etat pour Simplicité v6 inspiré du Système de Design de l'Etat Français (DSFR)",
+			"module_name": "ThemeEtat",
+			"module_settings": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }",
+			"min_version": "6.0"
 		},
 		{
 			"name": "OpenAPI / Swagger tools",

@@ -39,6 +39,19 @@
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module_project_management.git\" } }"
 		},
 		{
+			"name": "Monitor",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-monitor@latest/resources/Disposition/default/MON_LOGO.svg",
+			"description": "Simplicité instance monitoring (/health data logging, memory & sessions graph, KO instance notifications)",
+			"url": "https://github.com/simplicitesoftware/module-monitor",
+			"module_name": "Monitor",
+			"settings_by_platform": {
+				"~5": "{ \"type\": \"git\", \"branch\": \"v5\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-monitor.git\" } }",
+				"~6": "{ \"type\": \"git\", \"branch\": \"master\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-monitor.git\" } }"
+			},
+			"module_settings": "{ \"type\": \"git\", \"branch\": \"v5\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }",
+			"max_version": "5.3"
+		},
+		{
 			"name": "Simplicité Monitoring",
 			"description": "Simplicité instance monitoring (/health data logging, disk & memory usage graph, KO instance notifications)",
 			"module_name": "Monitor",

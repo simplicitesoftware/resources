@@ -74,7 +74,7 @@
 		{
 			"name": "Demo custom APIs",
 			"logo": "https://github.com/simplicitesoftware/module-demo-apis/blob/master/resources/Disposition/default/demoapis-module.svg?raw=true",
-			"description": "Custom APIs examples for the order management demo (for Simplicité v5)",
+			"description": "Custom APIs examples for the order management demo",
 			"module_name": "DemoAPIs",
 			"settings_by_platform": {
 				"~5": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-apis.git\" } }",

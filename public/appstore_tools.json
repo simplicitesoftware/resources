@@ -144,7 +144,7 @@
 		{
 			"name": "Theme Etat Français",
 			"logo": "https://github.com/simplicitesoftware/module-themeetat/blob/master/resources/Disposition/default/themeetat-module.svg?raw=true",
-			"description": "Theme Etat inspiré du Système de Design de l'Etat Français (pour Simplicité v5 )",
+			"description": "Theme Etat inspiré du Système de Design de l'Etat Français (DSFR)",
 			"module_name": "ThemeEtat",
 			"settings_by_platform": {
 				"~5": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }",

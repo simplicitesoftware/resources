@@ -72,21 +72,17 @@
 			"min_version": "5.1"
 		},
 		{
-			"name": "Demo custom APIs (v5)",
+			"name": "Demo custom APIs",
 			"logo": "https://github.com/simplicitesoftware/module-demo-apis/blob/master/resources/Disposition/default/demoapis-module.svg?raw=true",
 			"description": "Custom APIs examples for the order management demo (for Simplicité v5)",
 			"module_name": "DemoAPIs",
+			"settings_by_platform": {
+				"~5": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-apis.git\" } }",
+				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-apis.git\" } }"
+			},
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-apis.git\" } }",
 			"min_version": "5.1",
 			"max_version": "5.3"
-		},
-		{
-			"name": "Demo custom APIs (v6)",
-			"logo": "https://github.com/simplicitesoftware/module-demo-apis/blob/v6/resources/Disposition/default/demoapis-module.svg?raw=true",
-			"description": "Custom APIs examples for the order management demo (for Simplicité v6)",
-			"module_name": "DemoAPIs",
-			"module_settings": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-apis.git\" } }",
-			"min_version": "6.0"
 		},
 		{
 			"name": "Demo Data-link",

@@ -9,7 +9,7 @@ The standard XML format is described in the following XSD schemas:
 - [For versions 2.*](base-2.xsd)
 - [For versions 3.*](base-3.xsd)
 - [For versions 4.*](base-4.xsd)
-- [For versions 5.*](base.xsd)
+- [For versions 5.* and 6.*](base.xsd)
 
 Standard ZIP format
 -------------------

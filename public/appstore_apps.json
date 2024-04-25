@@ -15,6 +15,10 @@
 			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-artil/master/resources/Disposition/default/artil-logo.svg",
 			"description": "Art collection management",
 			"module_name": "Artil",
+			"url": "https://github.com/simplicitesoftware/module-artil/blob/master/README.md",
+			"settings_by_platform": {
+				"~5": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-artil.git\" } }"
+			},
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-artil.git\" } }"
 		},
 		{

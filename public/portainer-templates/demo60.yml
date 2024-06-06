@@ -14,6 +14,11 @@ services:
               branch: "v6"
             datasets: true
             unittests: true
+          - name: "SimFeatures"
+            version: "9999"
+            git: 
+              uri: "https://github.com/simplicitesoftware/module-SimFeatures.git"
+              branch: "6.0"
     networks:
       - proxy
     labels:

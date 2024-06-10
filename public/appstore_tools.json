@@ -23,7 +23,7 @@
 		},
 		{
 			"name": "AI integrations",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-ai@latest/resources/Disposition/default/ai_module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module_ai/resources/Disposition/default/ai_module.svg",
 			"description": "Currently compatible with Mistral AI and ChaGPT. Functionnalities: Chatbot, Module generation, Test data generation, Graph generation.",
 			"module_name": "AIBySimplicite",
 			"settings_by_platform": {

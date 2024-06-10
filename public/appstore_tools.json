@@ -30,10 +30,12 @@
 		},
 		{
 			"name": "Mail Tester",
-			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
 			"description": "Trigger email sendings without bothering about business logic.",
 			"module_name": "MailTester",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"
+			"settings_by_platform": {
+				"~5": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"
+			},
+			"module_settings": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"
 		},
 		{
 			"name": "Hardened security",

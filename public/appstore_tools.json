@@ -7,7 +7,11 @@
 			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-SimAdapters/master/resources/Disposition/default/appstore-image.svg",
 			"description": "Import an app's data model from another app (open an issue on github for extra  app / format support)",
 			"module_name": "SimAdapters",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }"
+			"settings_by_platform": {
+				"~5": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }"
+			},
+			"module_settings": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }",
+			"max_version": "5.3"
 		},
 		{
 			"name": "Features",
@@ -30,6 +34,16 @@
 				"~6": "{ \"type\": \"git\", \"branch\": \"6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module_ai.git\" } }"
 			},
 			"module_settings": "{ \"type\": \"git\", \"branch\": \"6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module_ai.git\" } }",
+			"min_version": "6.0"
+		},
+		{
+			"name": "App Store Manager",
+			"description": "Publish a custom AppStore source for Simplicité instances",
+			"module_name": "SimStoreManager",
+			"settings_by_platform": {
+				"~6": "{ \"type\": \"git\", \"branch\": \"6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimStoreManager.git\" } }"
+			},
+			"module_settings": "",
 			"min_version": "6.0"
 		},
 		{

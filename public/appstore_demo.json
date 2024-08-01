@@ -91,6 +91,13 @@
 			"module_name": "DemoDataLink",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-datalink.git\" } }",
 			"min_version": "5.3"
+		},{
+				"name": "Demo AI integrations",
+				"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-demo@latest/resources/Disposition/default/demo-module.svg",
+				"description": "AI integrations in Demo for charts",
+				"module_name": "DemoAIAddons",
+				"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-ai\" } }",
+				"min_version": "6.0"
 		}
 	]
 }

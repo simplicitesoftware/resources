@@ -17,7 +17,8 @@
 			"module_name": "Artil",
 			"url": "https://github.com/simplicitesoftware/module-artil/blob/master/README.md",
 			"settings_by_platform": {
-				"~5": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-artil.git\" } }"
+				"~5": "{ \"type\": \"git\", \"branch\": \"master\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-artil.git\" } }",
+				"~6.1": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-artil.git\" } }"
 			},
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-artil.git\" } }"
 		},

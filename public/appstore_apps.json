@@ -8,6 +8,10 @@
 			"screenshot": "https://github.com/simplicitesoftware/module-rh/blob/master/resources/Disposition/default/rh-module-screenshot.png?raw=true",
 			"description": "Human Ressources management (employees, interviews, competencies, trainings)",
 			"module_name": "RH",
+			"settings_by_platform": {
+				"~5": "{ \"type\": \"git\", \"branch\": \"master\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-rh.git\" } }",
+				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-rh.git\" } }"
+			},
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-rh.git\" } }"
 		},
 		{

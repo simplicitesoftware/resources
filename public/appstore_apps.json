@@ -31,7 +31,7 @@
 			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-training/master/resources/Disposition/default/training-module.svg",
 			"description": "Lesson model, Vue.js frontend, opt-in git/filesystem synchronization, opt-in elasticsearch",
 			"module_name": "Training",
-			"url":"https://github.com/simplicitesoftware/module-training?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-training?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-training.git\" }}"
 		},
 		{
@@ -39,7 +39,7 @@
 			"logo": "https://github.com/simplicitesoftware/module-projects/blob/master/resources/Disposition/default/projects-module.svg?raw=true",
 			"description": "Ticketing management",
 			"module_name": "Projects",
-			"url":"https://github.com/simplicitesoftware/module-projects?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-projects?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-projects.git\" } }"
 		},
 		{
@@ -47,7 +47,7 @@
 			"logo": "https://github.com/simplicitesoftware/module_project_management/blob/master/resources/Disposition/default/product_management.svg?raw=true",
 			"description": "Gantt and tasks management",
 			"module_name": "ProjectManagement",
-			"url":"https://github.com/simplicitesoftware/module_project_management?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module_project_management?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module_project_management.git\" } }"
 		},
 		{
@@ -69,7 +69,7 @@
 			"screenshot": "https://github.com/simplicitesoftware/module-pizzeria/blob/master/resources/Disposition/default/pizzeria-module-screenshot.png?raw=true",
 			"description": "Pizzeria management demo",
 			"module_name": "Pizzeria",
-			"url":"https://github.com/simplicitesoftware/module-pizzeria?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-pizzeria?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-pizzeria.git\" } }"
 		},
 		{
@@ -78,7 +78,7 @@
 			"screenshot": "https://github.com/simplicitesoftware/module-velibdemo/blob/master/resources/Disposition/default/velibdemo-module-screenshot.png?raw=true",
 			"description": "Velib (Paris free floating bidkes service) demo",
 			"module_name": "VelibDemo",
-			"url":"https://github.com/simplicitesoftware/module-velibdemo?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-velibdemo?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-velibdemo.git\" } }"
 		},
 		{
@@ -87,7 +87,7 @@
 			"screenshot": "https://github.com/simplicitesoftware/module-restaurants/blob/master/resources/Disposition/default/restaurants-module-screenshot.png?raw=true",
 			"description": "Restaurants rating demo (backend) + NodeRED nodes for the frontend",
 			"module_name": "RestaurantsDemo",
-			"url":"https://github.com/simplicitesoftware/module-restaurants?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-restaurants?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-restaurants.git\" } }"
 		},
 		{
@@ -96,7 +96,7 @@
 			"screenshot": "https://github.com/simplicitesoftware/module-questionsandanswers/blob/master/resources/Disposition/default/qa-module-screenshot.png?raw=true",
 			"description": "Questions and Answers (backend + frontend)",
 			"module_name": "QuestionsAndAnswers",
-			"url":"https://github.com/simplicitesoftware/module-questionsandanswers?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-questionsandanswers?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-questionsandanswers.git\" } }"
 		},
 		{
@@ -105,7 +105,7 @@
 			"screenshot": "https://github.com/simplicitesoftware/module-burgers/blob/master/resources/Disposition/default/burgers-module-screenshot.png?raw=true",
 			"description": "Burger shop (backend + frontend)",
 			"module_name": "Burgers",
-			"url":"https://github.com/simplicitesoftware/module-burgers?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-burgers?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-burgers.git\" } }"
 		},
 		{
@@ -113,7 +113,7 @@
 			"logo": "https://github.com/simplicitesoftware/module-rh/blob/master/resources/Disposition/default/rh-module.svg?raw=true",
 			"description": "Example CRM module",
 			"module_name": "Crm",
-			"url":"https://github.com/simplicitesoftware/module-crm2?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-crm2?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-crm2.git\", \"branch\": \"main\" }}"
 		},
 		{
@@ -121,7 +121,7 @@
 			"logo": "https://github.com/simplicitesoftware/module-booking/blob/master/resources/Disposition/default/booking-module-screenshot.svg?raw=true",
 			"description": "Hotel room booking example",
 			"module_name": "Booking",
-			"url":"https://github.com/simplicitesoftware/module-booking?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-booking?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-booking.git\" }}"
 		},
 		{
@@ -129,14 +129,14 @@
 			"logo": "https://github.com/simplicitesoftware/module-agd/blob/master/resources/Disposition/default/agd-module-screenshot.svg?raw=true",
 			"description": "",
 			"module_name": "Agd",
-			"url":"https://github.com/simplicitesoftware/module-agd?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-agd?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-agd.git\" }}"
 		},
 		{
 			"name": "Asset Management",
 			"logo": "https://github.com/simplicitesoftware/module-demandes/blob/master/resources/Disposition/default/demo-demandes.svg?raw=true",
 			"description": "Internal asset management (Demandes)",
-			"url":"https://github.com/simplicitesoftware/module-demandes?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-demandes?tab=readme-ov-file#readme",
 			"module_name": "Demandes",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demandes.git\" } }"
 		}

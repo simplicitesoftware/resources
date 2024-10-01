@@ -9,7 +9,7 @@
 			"settings_by_platform": {
 				"~5": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }"
 			},
-			"url":"https://github.com/simplicitesoftware/module-SimAdapters?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-SimAdapters?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }",
 			"max_version": "5.3"
 		},
@@ -23,7 +23,7 @@
 				"~6.0.0": "{ \"type\": \"git\", \"branch\": \"6.0\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }",
 				"~5": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }"
 			},
-			"url":"https://github.com/simplicitesoftware/module-SimFeatures?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-SimFeatures?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }"
 		},
 		{
@@ -35,7 +35,7 @@
 				"~6.1.0-beta": "{ \"type\": \"git\", \"branch\": \"6.1\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module_ai.git\" } }",
 				"~6.0.0": "{ \"type\": \"git\", \"branch\": \"6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module_ai.git\" } }"
 			},
-			"url":"https://github.com/simplicitesoftware/module_ai?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module_ai?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"branch\": \"6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module_ai.git\" } }",
 			"min_version": "6.0"
 		},
@@ -43,7 +43,7 @@
 			"name": "App Store Manager",
 			"description": "Publish a custom AppStore source for Simplicité instances",
 			"module_name": "SimStoreManager",
-			"url":"https://github.com/simplicitesoftware/module-SimStoreManager?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-SimStoreManager?tab=readme-ov-file#readme",
 			"settings_by_platform": {
 				"~6": "{ \"type\": \"git\", \"branch\": \"6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimStoreManager.git\" } }"
 			},
@@ -55,7 +55,7 @@
 			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-modificator/master/resources/Disposition/default/modificator-logo.svg",
 			"description": "Let power users update translations and lists of values.",
 			"module_name": "Modificator",
-			"url":"https://github.com/simplicitesoftware/module-modificator?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-modificator?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-modificator.git\" } }"
 		},
 		{
@@ -65,7 +65,7 @@
 			"settings_by_platform": {
 				"~5": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"
 			},
-			"url":"https://github.com/simplicitesoftware/module-mailtester?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-mailtester?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"
 		},
 		{
@@ -73,7 +73,7 @@
 			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-modificator/master/resources/Disposition/default/modificator-logo.svg",
 			"description": "Apply enhanced app-level security guidelines (does NOT apply infrastructure / reverse proxy / server level security guidelines). Please read module description before clearing the cache.",
 			"module_name": "SimSecure",
-			"url":"https://github.com/simplicitesoftware/module-SimSecure?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-SimSecure?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimSecure.git\" } }"
 		},
 		{
@@ -82,7 +82,7 @@
 			"screenshot": "https://github.com/simplicitesoftware/module-trello/blob/master/resources/Disposition/default/trello-module-screenshot.png?raw=true",
 			"description": "Trello integration examples (external object, business object, webhook)",
 			"module_name": "Trello",
-			"url":"https://github.com/simplicitesoftware/module-trello?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-trello?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-trello.git\" } }"
 		},
 		{
@@ -91,7 +91,7 @@
 			"screenshot": "https://github.com/simplicitesoftware/module-slack/blob/master/resources/Disposition/default/slack-module-screenshot.png?raw=true",
 			"description": "Slack integration examples (external object, webhook)",
 			"module_name": "Slack",
-			"url":"https://github.com/simplicitesoftware/module-slack?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-slack?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-slack.git\" } }"
 		},
 		{
@@ -99,7 +99,7 @@
 			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-elasticsearchindexer/master/resources/Disposition/default/elasticsearch-logo.svg",
 			"description": "ElasticSearch integration example",
 			"module_name": "ElasticSearchIndexer",
-			"url":"https://github.com/simplicitesoftware/module-elasticsearchindexer?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-elasticsearchindexer?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-elasticsearchindexer.git\" } }"
 		},
 		{
@@ -108,7 +108,7 @@
 			"screenshot": "https://github.com/simplicitesoftware/module-cms/blob/master/resources/Disposition/default/cms-module-screenshot.png?raw=true",
 			"description": "Content Management System (grapejs integration)",
 			"module_name": "CMS",
-			"url":"https://github.com/simplicitesoftware/module-cms?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-cms?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-cms.git\" } }"
 		},
 		{
@@ -117,7 +117,7 @@
 			"screenshot": "https://github.com/simplicitesoftware/module-salesforce/blob/master/resources/Disposition/default/salesforce-module-screenshot.png?raw=true",
 			"description": "SalesForce remote objects examples (business objects)",
 			"module_name": "SalesForce",
-			"url":"https://github.com/simplicitesoftware/module-salesforce?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-salesforce?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-salesforce.git\" } }"
 		},
 		{
@@ -126,7 +126,7 @@
 			"screenshot": "https://github.com/simplicitesoftware/module-opendatasoft/blob/master/resources/Disposition/default/opendatasoft-module-screenshot.png?raw=true",
 			"description": "OpenDataSoft remote objects examples (business objects)",
 			"module_name": "OpenDataSoft",
-			"url":"https://github.com/simplicitesoftware/module-opendatasoft?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-opendatasoft?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-opendatasoft.git\" } }"
 		},
 		{
@@ -134,7 +134,7 @@
 			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-SimLaPoste/master/resources/Disposition/default/module-laposte.svg",
 			"description": "La Poste Datanova's integrations (Postal Codes Service Object)",
 			"module_name": "SimLaPoste",
-			"url":"https://github.com/simplicitesoftware/module-SimLaPoste?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-SimLaPoste?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimLaPoste.git\" } }"
 		},
 		{
@@ -142,7 +142,7 @@
 			"logo": "https://docs.simplicite.io/logos/icon.svg",
 			"description": "ISO 3166 countries",
 			"module_name": "ISOCountries",
-			"url":"https://github.com/simplicitesoftware/module-isocountries?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-isocountries?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-isocountries.git\" } }"
 		},
 		{
@@ -150,7 +150,7 @@
 			"logo": "https://docs.simplicite.io/logos/icon.svg",
 			"description": "ISO 639 languages",
 			"module_name": "ISOLanguages",
-			"url":"https://github.com/simplicitesoftware/module-isolanguages?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-isolanguages?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-isolanguages.git\" } }"
 		},
 		{
@@ -158,7 +158,7 @@
 			"logo": "https://docs.simplicite.io/logos/icon.svg",
 			"description": "ISO 4217 currencies",
 			"module_name": "ISOCurrencies",
-			"url":"https://github.com/simplicitesoftware/module-isocurrencies?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-isocurrencies?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-isocurrencies.git\" } }"
 		},
 		{
@@ -166,7 +166,7 @@
 			"logo": "https://docs.simplicite.io/logos/icon.svg",
 			"description": "Currencies conversion rates using Fixer.io API. Requires ISO currencies module.",
 			"module_name": "Fixer",
-			"url":"https://github.com/simplicitesoftware/module-fixer?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-fixer?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-fixer.git\" } }"
 		},
 		{
@@ -174,7 +174,7 @@
 			"logo": "https://docs.simplicite.io/logos/icon.svg",
 			"description": "XTab packaging module.",
 			"module_name": "XTab",
-			"url":"https://github.com/simplicitesoftware/module-xtab?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-xtab?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-xtab.git\" } }"
 		},
 		{
@@ -182,7 +182,7 @@
 			"logo": "https://docs.simplicite.io/logos/icon.svg",
 			"description": "Keycloak module with parameters template and synchronization.",
 			"module_name": "Keycloak",
-			"url":"https://github.com/simplicitesoftware/module-keycloak?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-keycloak?tab=readme-ov-file#readme",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-keycloak.git\" } }"
 		},
 		{
@@ -198,7 +198,7 @@
 			"logo": "https://github.com/simplicitesoftware/module-themeetat/blob/master/resources/Disposition/default/themeetat-module.svg?raw=true",
 			"description": "Theme Etat inspiré du Système de Design de l'Etat Français (DSFR)",
 			"module_name": "ThemeEtat",
-			"url":"https://github.com/simplicitesoftware/module-themeetat?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-themeetat?tab=readme-ov-file#readme",
 			"settings_by_platform": {
 				"~5": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }",
 				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }"
@@ -211,7 +211,7 @@
 			"name": "OpenAPI / Swagger tools",
 			"logo": "https://github.com/simplicitesoftware/module-openapitools/blob/master/resources/Disposition/default/openapi.svg?raw=true",
 			"description": "OpenAPI / Swagger tools",
-			"url":"https://github.com/simplicitesoftware/module-openapitools?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-openapitools?tab=readme-ov-file#readme",
 			"module_name": "OpenAPITools",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-openapitools.git\" } }",
 			"min_version": "5.1"

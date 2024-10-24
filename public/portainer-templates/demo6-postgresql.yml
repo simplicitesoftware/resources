@@ -1,0 +1,71 @@
+#=====================================#
+#  ___ _            _ _    _ _    __  #
+# / __(_)_ __  _ __| (_)__(_) |_ /_/  #
+# \__ \ | '  \| '_ \ | / _| |  _/ -_) #
+# |___/_|_|_|_| .__/_|_\__|_|\__\___| #
+#             |_|                     #
+#=====================================#
+#
+# Note: Remplace xxx by your instance name
+#
+services:
+  xxx_db:
+    image: postgres:latest
+    restart: unless-stopped
+    container_name: xxx_db
+    environment:
+      TZ: "Europe/Paris"
+      PGTZ: "Europe/Paris"
+      POSTGRES_USER: "simplicite"
+      POSTGRES_PASSWORD: "simplicite"
+      POSTGRES_DB: "simplicite"
+    networks:
+      - proxy
+    volumes:
+      - db:/var/lib/postgresql/data
+  xxx:
+    image: registry.simplicite.io/platform:6-latest
+    restart: unless-stopped
+    container_name: xxx
+    environment:
+      IO_PASSWORD: "_a_very_strong_password_"
+      TOMCAT_TIMEZONE: "Europe/Paris"
+      DB_SETUP: "true"
+      DB_VENDOR: "postgresql"
+      DB_HOST: "xxx_db"
+      DB_USER: "simplicite"
+      DB_PASSWORD: "simplicite"
+      DB_NAME: "simplicite"
+      DB_WAIT: 100
+      DB_WAIT_INTERVAL: 10
+      #JPDA: "true"
+      #JPDA_SUSPEND: "true"
+      MODULES_IMPORT_SPEC: |
+        title: "Demo v6"
+        modules:
+          - name: "Demo"
+            version: "6"
+            git:
+              uri: "https://github.com/simplicitesoftware/module-demo.git"
+              branch: "v6"
+            datasets: true
+    networks:
+      - proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.xxx.rule=Host(`xxx.daz.simplicite.io`)"
+      - "traefik.http.routers.xxx.entrypoints=websecure"
+      - "traefik.http.routers.xxx.tls.certresolver=leresolver"
+      - "traefik.http.services.xxx.loadbalancer.server.port=8443"
+      # JPDA Remote debugging
+      #- "traefik.tcp.routers.xxx.rule=HostSNI(`xxx.daz.simplicite.io`)"
+      #- "traefik.tcp.routers.xxx.entrypoints=jpda"
+      #- "traefik.tcp.routers.xxx.tls.certresolver=leresolver"
+      #- "traefik.tcp.services.xxx.loadbalancer.server.port=8000"
+    depends_on:
+      - xxx_db
+volumes:
+  db:
+networks:
+  proxy:
+    name: proxy

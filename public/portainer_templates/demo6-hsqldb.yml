@@ -5,14 +5,11 @@
 # |___/_|_|_|_| .__/_|_\__|_|\__\___| #
 #             |_|                     #
 #=====================================#
-#
-# Note: Remplace xxx by your instance name
-#
 services:
-  xxx:
+  demo:
     image: registry.simplicite.io/platform:6-latest
     restart: unless-stopped
-    container_name: xxx
+    container_name: demo
     environment:
       IO_PASSWORD: "_a_very_strong_password_"
       #JPDA: "true"
@@ -33,15 +30,15 @@ services:
       - proxy
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.xxx.rule=Host(`xxx.daz.simplicite.io`)"
-      - "traefik.http.routers.xxx.entrypoints=websecure"
-      - "traefik.http.routers.xxx.tls.certresolver=leresolver"
-      - "traefik.http.services.xxx.loadbalancer.server.port=8443"
+      - "traefik.http.routers.demo.rule=Host(`demo.my.domain`)"
+      - "traefik.http.routers.demo.entrypoints=websecure"
+      - "traefik.http.routers.demo.tls.certresolver=leresolver"
+      - "traefik.http.services.demo.loadbalancer.server.port=8443"
       # JPDA Remote debugging
-      #- "traefik.tcp.routers.xxx.rule=HostSNI(`xxx.daz.simplicite.io`)"
-      #- "traefik.tcp.routers.xxx.entrypoints=jpda"
-      #- "traefik.tcp.routers.xxx.tls.certresolver=leresolver"
-      #- "traefik.tcp.services.xxx.loadbalancer.server.port=8000"
+      #- "traefik.tcp.routers.demo.rule=HostSNI(`demo.my.domain`)"
+      #- "traefik.tcp.routers.demo.entrypoints=jpda"
+      #- "traefik.tcp.routers.demo.tls.certresolver=leresolver"
+      #- "traefik.tcp.services.demo.loadbalancer.server.port=8000"
 volumes:
   db:
   dbdoc:

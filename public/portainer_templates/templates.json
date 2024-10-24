@@ -1,9 +1,8 @@
 {
-	"version": "3",
+	"version": "2",
 	"templates": [
 		{
-			"id": 1,
-			"type": 2,
+			"type": 3,
 			"title": "Simplicité v6 demo / HSQLDB",
 			"description": "Simplicité platform v6 using embedded HSQLDB database with the demo application",
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
@@ -14,8 +13,7 @@
 			}
 		},
 		{
-			"id": 2,
-			"type": 2,
+			"type": 3,
 			"title": "Simplicité v6 demo / PostgreSQL",
 			"description": "Simplicité platform v6 using PostgreSQL database the with demo application",
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
@@ -26,8 +24,7 @@
 			}
 		},
 		{
-			"id": 3,
-			"type": 2,
+			"type": 3,
 			"title": "Simplicité v6 demo / MySQL",
 			"description": "Simplicité platform v6 using MySQL database with the demo application",
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",

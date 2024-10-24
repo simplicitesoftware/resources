@@ -1,0 +1,41 @@
+{
+	"version": "3",
+	"templates": [
+		{
+			"id": 1,
+			"type": 2,
+			"title": "Simplicité v6 demo / HSQLDB",
+			"description": "Simplicité platform v6 using embedded HSQLDB database with the demo application",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
+			"platform": "linux",
+			"repository": {
+				"url": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/portainer_templates",
+				"stackfile": "demo6-hsqldb.yml"
+			}
+		},
+		{
+			"id": 2,
+			"type": 2,
+			"title": "Simplicité v6 demo / PostgreSQL",
+			"description": "Simplicité platform v6 using PostgreSQL database the with demo application",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
+			"platform": "linux",
+			"repository": {
+				"url": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/portainer_templates",
+				"stackfile": "demo6-postgresql.yml"
+			}
+		},
+		{
+			"id": 3,
+			"type": 2,
+			"title": "Simplicité v6 demo / MySQL",
+			"description": "Simplicité platform v6 using MySQL database with the demo application",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
+			"platform": "linux",
+			"repository": {
+				"url": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/portainer_templates",
+				"stackfile": "demo6-mysql.yml"
+			}
+		}
+	]
+}

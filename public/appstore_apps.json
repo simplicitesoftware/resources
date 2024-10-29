@@ -15,16 +15,16 @@
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-rh.git\" } }"
 		},
 		{
-			"name": "Artil",
-			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-artil/master/resources/Disposition/default/artil-logo.svg",
-			"description": "Art collection management",
+			"name": "Art Collection Management",
+			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-artil/v6/resources/Disposition/default/artil-logo.svg",
+			"description": "Artil is an app for galleries, museums and art collectors. It's focused on inventory tasks and invoice generation.",
 			"module_name": "Artil",
-			"url": "https://github.com/simplicitesoftware/module-artil/blob/master/README.md",
+			"url": "https://simplicitesoftware.github.io/module-artil",
 			"settings_by_platform": {
-				"~5": "{ \"type\": \"git\", \"branch\": \"master\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-artil.git\" } }",
+				"~5.3": "{ \"type\": \"git\", \"branch\": \"v5\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-artil.git\" } }",
 				"~6.1": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-artil.git\" } }"
 			},
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-artil.git\" } }"
+			"module_settings": "{ \"type\": \"git\", \"branch\": \"v5\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-artil.git\" } }"
 		},
 		{
 			"name": "Documentation",

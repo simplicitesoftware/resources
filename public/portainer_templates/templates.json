@@ -8,8 +8,8 @@
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
 			"platform": "linux",
 			"repository": {
-				"url": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/portainer_templates",
-				"stackfile": "demo6-hsqldb.yml"
+				"url": "https://github.com/simplicitesoftware/resources",
+				"stackfile": "public/portainer_templates/demo6-hsqldb.yml"
 			}
 		},
 		{
@@ -19,8 +19,8 @@
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
 			"platform": "linux",
 			"repository": {
-				"url": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/portainer_templates",
-				"stackfile": "demo6-postgresql.yml"
+				"url": "https://github.com/simplicitesoftware/resources",
+				"stackfile": "public/portainer_templates/demo6-postgresql.yml"
 			}
 		},
 		{
@@ -30,8 +30,8 @@
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
 			"platform": "linux",
 			"repository": {
-				"url": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/portainer_templates",
-				"stackfile": "demo6-mysql.yml"
+				"url": "https://github.com/simplicitesoftware/resources",
+				"stackfile": "public/portainer_templates/demo6-mysql.yml"
 			}
 		}
 	]

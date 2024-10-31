@@ -12,8 +12,6 @@ services:
     container_name: demo
     environment:
       IO_PASSWORD: "_a_very_strong_password_"
-      #JPDA: "true"
-      #JPDA_SUSPEND: "true"
       MODULES_IMPORT_SPEC: |
         title: "Demo v6"
         modules:
@@ -34,11 +32,6 @@ services:
       - "traefik.http.routers.demo.entrypoints=websecure"
       - "traefik.http.routers.demo.tls.certresolver=leresolver"
       - "traefik.http.services.demo.loadbalancer.server.port=8443"
-      # JPDA Remote debugging
-      #- "traefik.tcp.routers.demo.rule=HostSNI(`demo.my.domain`)"
-      #- "traefik.tcp.routers.demo.entrypoints=jpda"
-      #- "traefik.tcp.routers.demo.tls.certresolver=leresolver"
-      #- "traefik.tcp.services.demo.loadbalancer.server.port=8000"
 volumes:
   db:
   dbdoc:

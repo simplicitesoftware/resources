@@ -1,0 +1,59 @@
+services:
+  demo61:
+    image: registry.simplicite.io/platform:6.1
+    restart: always
+    container_name: demo61
+    environment:
+      AI_API_PARAM: |
+        {
+            "provider": "Open AI",
+            "OpenAI-Organization": "",
+            "OpenAI-Project": "",
+            "api_key": "",
+            "model": "gpt-4o",
+            "completion_url": "https://api.openai.com/v1/chat/completions",
+            "bot_name": "Toni",
+            "code_max_token": 2000,
+            "default_max_token": 1500,
+            "showDataDisclaimer": true,
+            "hist_depth": 3,
+            "ping_url": "https://api.openai.com/v1/models"
+        }
+      DEMO_NB_ORDERS: 100
+      MODULES_IMPORT_SPEC: |
+        title: "Demo"
+        modules:
+          - name: "Demo"
+            version: "9999"
+            git: 
+              uri: "https://github.com/simplicitesoftware/module-demo.git"
+              branch: "v6"
+            datasets: true
+            unittests: true
+          - name: "AIBySimplicite"
+            version: "9999"
+            git: 
+              uri: "https://github.com/simplicitesoftware/module_ai.git"
+              branch: "6.1"
+          - name: "DemoAIAddons"
+            version: "9999"
+            git:
+              uri: "https://github.com/simplicitesoftware/module-demo-ai.git"
+              branch: "6"
+          - name: "SimFeatures"
+            version: "9999"
+            git: 
+              uri: "https://github.com/simplicitesoftware/module-SimFeatures.git"
+              branch: "6.1"
+    networks:
+      - proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.demo61.rule=Host(`demo61.my.domain`)"
+      - "traefik.http.routers.demo61.entrypoints=websecure"
+      - "traefik.http.routers.demo61.tls.certresolver=leresolver"
+      - "traefik.http.services.demo61.loadbalancer.server.port=8443"
+networks:
+  proxy:
+    name: proxy
+    external: true

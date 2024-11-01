@@ -34,11 +34,8 @@ services:
       DB_USER: "simplicite"
       DB_PASSWORD: "simplicite"
       DB_NAME: "simplicite"
-      #DB_SSL: "true"
       DB_WAIT: 100
       DB_WAIT_INTERVAL: 10
-      #JPDA: "true"
-      #JPDA_SUSPEND: "true"
       MODULES_IMPORT_SPEC: |
         title: "Demo v6"
         modules:

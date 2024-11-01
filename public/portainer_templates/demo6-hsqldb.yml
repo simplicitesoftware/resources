@@ -12,8 +12,6 @@ services:
     container_name: demo
     environment:
       IO_PASSWORD: "_a_very_strong_password_"
-      #JPDA: "true"
-      #JPDA_SUSPEND: "true"
       MODULES_IMPORT_SPEC: |
         title: "Demo v6"
         modules:

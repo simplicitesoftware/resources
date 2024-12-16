@@ -51,6 +51,34 @@
 				  "description": "URL"
 				}
 			]
+		},
+		{
+			"type": 3,
+			"title": "Simplicité v6 Demo, Features, AI",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
+			"platform": "linux",
+			"repository": {
+				"url": "https://github.com/simplicitesoftware/resources",
+				"stackfile": "public/portainer_templates/demo6-openai.yml"
+			},
+			"env": [
+				{
+					"name": "URL",
+					"label": "Host URL"
+				},
+				{
+					"name": "OPENAI_ORG",
+					"label": "OpenAI Organization"
+				},
+				{
+				  "name": "OPENAI_PROJ",
+				  "label": "OpenAI Project"
+				},
+				{
+				  "name": "OPENAI_API_KEY",
+				  "label": "OpenAI API Key"
+				}
+			]
 		}
 	]
 }

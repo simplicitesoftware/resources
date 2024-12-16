@@ -33,6 +33,24 @@
 				"url": "https://github.com/simplicitesoftware/resources",
 				"stackfile": "public/portainer_templates/demo6-mysql.yml"
 			}
+		},
+		{
+			"type": 3,
+			"title": "Simplicité v6 Demo & Features ",
+			"description": "Simplicité platform v6 preloaded with demo & features",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
+			"platform": "linux",
+			"repository": {
+				"url": "https://github.com/simplicitesoftware/resources",
+				"stackfile": "public/portainer_templates/demo6-hsql-importspec.yml"
+			},
+			"env": [
+				{
+				  "name": "URL",
+				  "label": "Host URL",
+				  "description": "URL"
+				}
+			]
 		}
 	]
 }

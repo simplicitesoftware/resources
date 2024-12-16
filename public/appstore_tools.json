@@ -7,11 +7,11 @@
 			"description": "Import an app's data model from another app (open an issue on github for extra  app / format support)",
 			"module_name": "SimAdapters",
 			"settings_by_platform": {
+				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }",
 				"~5": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }"
 			},
-			"url": "https://github.com/simplicitesoftware/module-SimAdapters?tab=readme-ov-file#readme",
-			"module_settings": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }",
-			"max_version": "5.3"
+			"url": "https://simplicitesoftware.github.io/module-SimAdapters",
+			"module_settings": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }"
 		},
 		{
 			"name": "Features",

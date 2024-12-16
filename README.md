@@ -32,7 +32,8 @@ curl -L -X POST \
   -d '{"path":[
     "/gh/simplicitesoftware/resources@latest/public/appstore_demo.json",
     "/gh/simplicitesoftware/resources@latest/public/appstore_apps.json",
-    "/gh/simplicitesoftware/resources@latest/public/appstore_tools.json"
+    "/gh/simplicitesoftware/resources@latest/public/appstore_tools.json",
+    "/gh/simplicitesoftware/resources@latest/portainer_templates/templates.json"
     ]}'
 ```
 

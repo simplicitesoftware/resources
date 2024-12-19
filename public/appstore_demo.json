@@ -14,17 +14,8 @@
 				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }"
 			},
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }",
-			"min_version": "5.1",
+			"min_version": "5.3",
 			"max_version": "5.3"
-		},
-		{
-			"name": "Demo WebSite frontend",
-			"logo": "https://github.com/simplicitesoftware/module-demo-website/blob/master/resources/Disposition/default/demowebsite-module.svg?raw=true",
-			"screenshot": "https://github.com/simplicitesoftware/module-demo-website/blob/master/resources/Disposition/default/demowebsite-module-screenshot.png?raw=true",
-			"description": "WebSite frontend example for the order management demo",
-			"module_name": "DemoWebSite",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-website.git\" } }",
-			"min_version": "5.1"
 		},
 		{
 			"name": "Demo Mustache frontend page",
@@ -33,7 +24,7 @@
 			"description": "Frontend example based on Mustache templating for the order management demo",
 			"module_name": "DemoMustache",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-mustache.git\" } }",
-			"min_version": "5.1"
+			"min_version": "5.3"
 		},
 		{
 			"name": "Demo Vue.js frontend page",
@@ -42,7 +33,7 @@
 			"description": "Frontend example based on the Vue.js framework for the order management demo",
 			"module_name": "DemoVueJS",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-vuejs.git\" } }",
-			"min_version": "5.1"
+			"min_version": "5.3"
 		},
 		{
 			"name": "Demo JS lib custom UI page",
@@ -51,7 +42,7 @@
 			"description": "Custom page example based on the contrib JS lib for the order management demo",
 			"module_name": "DemoJSLib",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-jslib.git\" } }",
-			"min_version": "5.1"
+			"min_version": "5.3"
 		},
 		{
 			"name": "Demo dashboard",
@@ -60,7 +51,7 @@
 			"description": "Google charts dashboard for the order management demo",
 			"module_name": "DemoDashboard",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-dashboard.git\" } }",
-			"min_version": "5.1"
+			"min_version": "5.3"
 		},
 		{
 			"name": "Demo addons",
@@ -69,7 +60,7 @@
 			"description": "Addons for the order management demo",
 			"module_name": "DemoAddons",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-addons.git\" } }",
-			"min_version": "5.1"
+			"min_version": "5.3"
 		},
 		{
 			"name": "Demo custom APIs",
@@ -81,8 +72,17 @@
 				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-apis.git\" } }"
 			},
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-apis.git\" } }",
-			"min_version": "5.1",
+			"min_version": "5.3",
 			"max_version": "5.3"
+		},
+		{
+			"name": "Demo sample frontend",
+			"logo": "https://github.com/simplicitesoftware/module-demo-staticsite/blob/master/resources/Disposition/default/demostaticsite-module.svg?raw=true",
+			"screenshot": "https://github.com/simplicitesoftware/module-demo-staticsite/blob/master/resources/Disposition/default/demostaticsite-module-screenshot.png?raw=true",
+			"description": "Sample frontend for the order management demo",
+			"module_name": "DemoStaticSite",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-staticsite.git\" } }",
+			"min_version": "5.3"
 		},
 		{
 			"name": "Demo Data-link",
@@ -91,13 +91,14 @@
 			"module_name": "DemoDataLink",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-datalink.git\" } }",
 			"min_version": "5.3"
-		},{
-				"name": "Demo AI integrations",
-				"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-demo@latest/resources/Disposition/default/demo-module.svg",
-				"description": "AI integrations in Demo for charts",
-				"module_name": "DemoAIAddons",
-				"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-ai\" } }",
-				"min_version": "6.0"
+		},
+		{
+			"name": "Demo AI integrations",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-demo@latest/resources/Disposition/default/demo-module.svg",
+			"description": "AI integrations in Demo for charts",
+			"module_name": "DemoAIAddons",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-ai\" } }",
+			"min_version": "6.0"
 		}
 	]
 }

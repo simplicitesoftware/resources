@@ -32,6 +32,9 @@
 			"description": "Lesson model, Vue.js frontend, opt-in git/filesystem synchronization, opt-in elasticsearch",
 			"module_name": "Training",
 			"url": "https://github.com/simplicitesoftware/module-training?tab=readme-ov-file#readme",
+			"settings_by_platform": {
+				"~5.3":"{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-training.git\" } }"
+			},
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-training.git\" }}"
 		},
 		{

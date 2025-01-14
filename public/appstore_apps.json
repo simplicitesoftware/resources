@@ -27,7 +27,7 @@
 			"module_settings": "{ \"type\": \"git\", \"branch\": \"v5\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-artil.git\" } }"
 		},
 		{
-			"name": "Documentation",
+			"name": "Documentation Management",
 			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-training/master/resources/Disposition/default/training-module.svg",
 			"description": "Lesson model, Vue.js frontend, opt-in git/filesystem synchronization, opt-in elasticsearch",
 			"module_name": "Training",
@@ -38,7 +38,7 @@
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-training.git\" }}"
 		},
 		{
-			"name": "Project Management",
+			"name": "Ticketing Management",
 			"logo": "https://github.com/simplicitesoftware/module-projects/blob/master/resources/Disposition/default/projects-module.svg?raw=true",
 			"description": "Ticketing management",
 			"module_name": "Projects",
@@ -73,7 +73,8 @@
 			"description": "Pizzeria management demo",
 			"module_name": "Pizzeria",
 			"url": "https://github.com/simplicitesoftware/module-pizzeria?tab=readme-ov-file#readme",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-pizzeria.git\" } }"
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-pizzeria.git\" } }",
+			"max_version": "5.3"
 		},
 		{
 			"name": "Velib demo",
@@ -82,7 +83,8 @@
 			"description": "Velib (Paris free floating bidkes service) demo",
 			"module_name": "VelibDemo",
 			"url": "https://github.com/simplicitesoftware/module-velibdemo?tab=readme-ov-file#readme",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-velibdemo.git\" } }"
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-velibdemo.git\" } }",
+			"max_version": "5.3"
 		},
 		{
 			"name": "Restaurants rating backend with NodeRED frontend",
@@ -91,7 +93,8 @@
 			"description": "Restaurants rating demo (backend) + NodeRED nodes for the frontend",
 			"module_name": "RestaurantsDemo",
 			"url": "https://github.com/simplicitesoftware/module-restaurants?tab=readme-ov-file#readme",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-restaurants.git\" } }"
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-restaurants.git\" } }",
+			"max_version": "5.3"
 		},
 		{
 			"name": "Q&A",
@@ -100,7 +103,8 @@
 			"description": "Questions and Answers (backend + frontend)",
 			"module_name": "QuestionsAndAnswers",
 			"url": "https://github.com/simplicitesoftware/module-questionsandanswers?tab=readme-ov-file#readme",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-questionsandanswers.git\" } }"
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-questionsandanswers.git\" } }",
+			"max_version": "5.3"
 		},
 		{
 			"name": "Burger shop",
@@ -109,7 +113,8 @@
 			"description": "Burger shop (backend + frontend)",
 			"module_name": "Burgers",
 			"url": "https://github.com/simplicitesoftware/module-burgers?tab=readme-ov-file#readme",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-burgers.git\" } }"
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-burgers.git\" } }",
+			"max_version": "5.3"
 		},
 		{
 			"name": "Customer Relationship Management",

@@ -32,7 +32,7 @@
 			"description": "Currently compatible with Mistral AI and ChaGPT. Functionnalities: Chatbot, Module generation, Test data generation, Graph generation.",
 			"module_name": "AIBySimplicite",
 			"settings_by_platform": {
-				"~6.1.0-beta": "{ \"type\": \"git\", \"branch\": \"6.1\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module_ai.git\" } }",
+				">=6.1.0-beta": "{ \"type\": \"git\", \"branch\": \"6.1\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module_ai.git\" } }",
 				"~6.0.0": "{ \"type\": \"git\", \"branch\": \"6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module_ai.git\" } }"
 			},
 			"url": "https://github.com/simplicitesoftware/module_ai?tab=readme-ov-file#readme",

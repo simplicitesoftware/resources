@@ -216,6 +216,17 @@
 			"module_name": "OpenAPITools",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-openapitools.git\" } }",
 			"min_version": "5.1"
-		}
+		},
+		{
+			"name": "Themes Mazette",
+			"logo": "https://github.com/simplicitesoftware/module-theming/blob/master/resources/Disposition/default/logo_simplicite_dark.png",
+			"description": "Themes Nouvelle Identité",
+			"module_name": "ThemingAbel",
+			"url": "https://github.com/simplicitesoftware/module-theming.git",
+			"settings_by_platform": {
+				">=6.1.0-beta": "{ \"type\": \"git\", \"branch\": \"master\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-theming.git" } }"
+			},
+			"min_version": "6.1"
+		},
 	]
 }

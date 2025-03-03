@@ -224,9 +224,9 @@
 			"module_name": "ThemingAbel",
 			"url": "https://github.com/simplicitesoftware/module-theming.git",
 			"settings_by_platform": {
-				">=6.1.0-beta": "{ \"type\": \"git\", \"branch\": \"master\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-theming.git" } }"
+				">=6.1.0-beta": "{ \"type\": \"git\", \"branch\": \"master\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-theming.git\" } }"
 			},
 			"min_version": "6.1"
-		},
+		}
 	]
 }

@@ -219,7 +219,7 @@
 		},
 		{
 			"name": "Themes Mazette",
-			"logo": "https://github.com/simplicitesoftware/module-theming/blob/master/resources/Disposition/default/logo_simplicite_dark.png",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-theming/resources/Disposition/default/logo_simplicite_dark.png",
 			"description": "Themes Nouvelle Identité",
 			"module_name": "ThemingAbel",
 			"url": "https://github.com/simplicitesoftware/module-theming.git",

@@ -218,10 +218,10 @@
 			"min_version": "5.1"
 		},
 		{
-			"name": "Themes Mazette",
+			"name": "Extra Themes",
 			"logo": "https://docs.simplicite.io/logos/icon.svg",
-			"description": "Themes Nouvelle Identité",
-			"module_name": "ThemingAbel",
+			"description": "Pack of additional themes.",
+			"module_name": "SimThemes",
 			"url": "https://github.com/simplicitesoftware/module-theming.git",
 			"settings_by_platform": {
 				">=6.1.0-beta": "{ \"type\": \"git\", \"branch\": \"master\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-theming.git\" } }"

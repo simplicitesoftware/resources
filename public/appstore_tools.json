@@ -140,7 +140,7 @@
 		},
 		{
 			"name": "ISO countries",
-			"logo": "https://docs.simplicite.io/logos/icon.svg",
+			"logo": "https://github.com/simplicitesoftware/module-theming/blob/master/resources/Disposition/default/logo_simplicite_dark.png?raw=true",
 			"description": "ISO 3166 countries",
 			"module_name": "ISOCountries",
 			"url": "https://github.com/simplicitesoftware/module-isocountries?tab=readme-ov-file#readme",
@@ -148,7 +148,7 @@
 		},
 		{
 			"name": "ISO languages",
-			"logo": "https://docs.simplicite.io/logos/icon.svg",
+			"logo": "https://github.com/simplicitesoftware/module-theming/blob/master/resources/Disposition/default/logo_simplicite_dark.png?raw=true",
 			"description": "ISO 639 languages",
 			"module_name": "ISOLanguages",
 			"url": "https://github.com/simplicitesoftware/module-isolanguages?tab=readme-ov-file#readme",
@@ -156,7 +156,7 @@
 		},
 		{
 			"name": "ISO currencies",
-			"logo": "https://docs.simplicite.io/logos/icon.svg",
+			"logo": "https://github.com/simplicitesoftware/module-theming/blob/master/resources/Disposition/default/logo_simplicite_dark.png?raw=true",
 			"description": "ISO 4217 currencies",
 			"module_name": "ISOCurrencies",
 			"url": "https://github.com/simplicitesoftware/module-isocurrencies?tab=readme-ov-file#readme",
@@ -164,7 +164,7 @@
 		},
 		{
 			"name": "Currencies conversion rates",
-			"logo": "https://docs.simplicite.io/logos/icon.svg",
+			"logo": "https://github.com/simplicitesoftware/module-theming/blob/master/resources/Disposition/default/logo_simplicite_dark.png?raw=true",
 			"description": "Currencies conversion rates using Fixer.io API. Requires ISO currencies module.",
 			"module_name": "Fixer",
 			"url": "https://github.com/simplicitesoftware/module-fixer?tab=readme-ov-file#readme",
@@ -172,7 +172,7 @@
 		},
 		{
 			"name": "XTab packaging",
-			"logo": "https://docs.simplicite.io/logos/icon.svg",
+			"logo": "https://github.com/simplicitesoftware/module-theming/blob/master/resources/Disposition/default/logo_simplicite_dark.png?raw=true",
 			"description": "XTab packaging module.",
 			"module_name": "XTab",
 			"url": "https://github.com/simplicitesoftware/module-xtab?tab=readme-ov-file#readme",
@@ -180,7 +180,7 @@
 		},
 		{
 			"name": "Keycloak config",
-			"logo": "https://docs.simplicite.io/logos/icon.svg",
+			"logo": "https://github.com/simplicitesoftware/module-theming/blob/master/resources/Disposition/default/logo_simplicite_dark.png?raw=true",
 			"description": "Keycloak module with parameters template and synchronization.",
 			"module_name": "Keycloak",
 			"url": "https://github.com/simplicitesoftware/module-keycloak?tab=readme-ov-file#readme",

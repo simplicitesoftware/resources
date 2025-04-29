@@ -219,7 +219,7 @@
 		},
 		{
 			"name": "Extra Themes",
-			"logo": "https://docs.simplicite.io/logos/icon.svg",
+			"logo": "https://github.com/simplicitesoftware/module-theming/blob/master/resources/Disposition/default/CUSTOM_LOGO.png",
 			"description": "Pack of additional themes.",
 			"module_name": "SimThemes",
 			"url": "https://github.com/simplicitesoftware/module-theming.git",

@@ -16,7 +16,7 @@
 		},
 		{
 			"name": "Art Collection Management",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstore_images/artil-logo.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/artil-logo.svg",
 			"description": "Artil is an app for galleries, museums and art collectors. It's focused on inventory tasks and invoice generation.",
 			"module_name": "Artil",
 			"url": "https://simplicitesoftware.github.io/module-artil",

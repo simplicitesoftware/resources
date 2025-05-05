@@ -4,6 +4,7 @@
 	"apps": [
 		{
 			"name": "Adapters",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
 			"description": "Import an app's data model from another app (open an issue on github for extra  app / format support)",
 			"module_name": "SimAdapters",
 			"settings_by_platform": {

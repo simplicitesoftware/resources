@@ -4,8 +4,8 @@
 	"apps": [
 		{
 			"name": "Human Ressources management",
-			"logo": "https://github.com/simplicitesoftware/module-rh/blob/master/resources/Disposition/default/rh-module.svg?raw=true",
-			"screenshot": "https://github.com/simplicitesoftware/module-rh/blob/master/resources/Disposition/default/rh-module-screenshot.png?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-rh@master/resources/Disposition/default/rh-module.svg",
+			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-rh@master/resources/Disposition/default/rh-module-screenshot.png",
 			"description": "Human Ressources management (employees, interviews, competencies, trainings)",
 			"module_name": "RH",
 			"settings_by_platform": {
@@ -16,7 +16,7 @@
 		},
 		{
 			"name": "Art Collection Management",
-			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-artil/v6/resources/Disposition/default/artil-logo.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-artil@master/resources/Disposition/default/artil-logo.svg",
 			"description": "Artil is an app for galleries, museums and art collectors. It's focused on inventory tasks and invoice generation.",
 			"module_name": "Artil",
 			"url": "https://simplicitesoftware.github.io/module-artil",
@@ -28,10 +28,10 @@
 		},
 		{
 			"name": "Documentation Management",
-			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-training/master/resources/Disposition/default/training-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-training@master/resources/Disposition/default/training-module.svg",
 			"description": "Lesson model, Vue.js frontend, opt-in git/filesystem synchronization, opt-in elasticsearch",
 			"module_name": "Training",
-			"url": "https://github.com/simplicitesoftware/module-training?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-training",
 			"settings_by_platform": {
 				"~5.3":"{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-training.git\" } }"
 			},
@@ -39,23 +39,23 @@
 		},
 		{
 			"name": "Ticketing Management",
-			"logo": "https://github.com/simplicitesoftware/module-projects/blob/master/resources/Disposition/default/projects-module.svg?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-projects@master/resources/Disposition/default/projects-module.svg",
 			"description": "Ticketing management",
 			"module_name": "Projects",
-			"url": "https://github.com/simplicitesoftware/module-projects?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-projects",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-projects.git\" } }"
 		},
 		{
 			"name": "Project Management",
-			"logo": "https://github.com/simplicitesoftware/module_project_management/blob/master/resources/Disposition/default/product_management.svg?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module_project_management@master/resources/Disposition/default/product_management.svg",
 			"description": "Gantt and tasks management",
 			"module_name": "ProjectManagement",
-			"url": "https://github.com/simplicitesoftware/module_project_management?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module_project_management",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module_project_management.git\" } }"
 		},
 		{
 			"name": "Monitor",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-monitor@latest/resources/Disposition/default/MON_LOGO.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-monitor@master/resources/Disposition/default/MON_LOGO.svg",
 			"description": "Simplicité instance monitoring (/health data logging, memory & sessions graph, KO instance notifications)",
 			"url": "https://github.com/simplicitesoftware/module-monitor",
 			"module_name": "Monitor",
@@ -68,83 +68,83 @@
 		},
 		{
 			"name": "Pizzeria demo",
-			"logo": "https://github.com/simplicitesoftware/module-pizzeria/blob/master/resources/Disposition/default/pizzeria-module.svg?raw=true",
-			"screenshot": "https://github.com/simplicitesoftware/module-pizzeria/blob/master/resources/Disposition/default/pizzeria-module-screenshot.png?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-pizzeria@master/resources/Disposition/default/pizzeria-module.svg",
+			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-pizzeria@master/resources/Disposition/default/pizzeria-module-screenshot.png",
 			"description": "Pizzeria management demo",
 			"module_name": "Pizzeria",
-			"url": "https://github.com/simplicitesoftware/module-pizzeria?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-pizzeria",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-pizzeria.git\" } }",
 			"max_version": "5.3"
 		},
 		{
 			"name": "Velib demo",
-			"logo": "https://github.com/simplicitesoftware/module-velibdemo/blob/master/resources/Disposition/default/velibdemo-module.svg?raw=true",
-			"screenshot": "https://github.com/simplicitesoftware/module-velibdemo/blob/master/resources/Disposition/default/velibdemo-module-screenshot.png?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-velibdemo@master/resources/Disposition/default/velibdemo-module.svg",
+			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-velibdemo@master/resources/Disposition/default/velibdemo-module-screenshot.png",
 			"description": "Velib (Paris free floating bidkes service) demo",
 			"module_name": "VelibDemo",
-			"url": "https://github.com/simplicitesoftware/module-velibdemo?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-velibdemo",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-velibdemo.git\" } }",
 			"max_version": "5.3"
 		},
 		{
 			"name": "Restaurants rating backend with NodeRED frontend",
-			"logo": "https://github.com/simplicitesoftware/module-restaurants/blob/master/resources/Disposition/default/restaurants-module.svg?raw=true",
-			"screenshot": "https://github.com/simplicitesoftware/module-restaurants/blob/master/resources/Disposition/default/restaurants-module-screenshot.png?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-restaurants@master/resources/Disposition/default/restaurants-module.svg",
+			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-restaurants@master/resources/Disposition/default/restaurants-module-screenshot.png",
 			"description": "Restaurants rating demo (backend) + NodeRED nodes for the frontend",
 			"module_name": "RestaurantsDemo",
-			"url": "https://github.com/simplicitesoftware/module-restaurants?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-restaurants",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-restaurants.git\" } }",
 			"max_version": "5.3"
 		},
 		{
 			"name": "Q&A",
-			"logo": "https://github.com/simplicitesoftware/module-questionsandanswers/blob/master/resources/Disposition/default/qa-module.svg?raw=true",
-			"screenshot": "https://github.com/simplicitesoftware/module-questionsandanswers/blob/master/resources/Disposition/default/qa-module-screenshot.png?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-questionsandanswers@master/resources/Disposition/default/qa-module.svg",
+			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-questionsandanswers@master/resources/Disposition/default/qa-module-screenshot.png",
 			"description": "Questions and Answers (backend + frontend)",
 			"module_name": "QuestionsAndAnswers",
-			"url": "https://github.com/simplicitesoftware/module-questionsandanswers?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-questionsandanswers",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-questionsandanswers.git\" } }",
 			"max_version": "5.3"
 		},
 		{
 			"name": "Burger shop",
-			"logo": "https://github.com/simplicitesoftware/module-burgers/blob/master/resources/Disposition/default/burgers-module.svg?raw=true",
-			"screenshot": "https://github.com/simplicitesoftware/module-burgers/blob/master/resources/Disposition/default/burgers-module-screenshot.png?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-burgers@master/resources/Disposition/default/burgers-module.svg",
+			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-burgers@master/resources/Disposition/default/burgers-module-screenshot.png",
 			"description": "Burger shop (backend + frontend)",
 			"module_name": "Burgers",
-			"url": "https://github.com/simplicitesoftware/module-burgers?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-burgers",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-burgers.git\" } }",
 			"max_version": "5.3"
 		},
 		{
 			"name": "Customer Relationship Management",
-			"logo": "https://github.com/simplicitesoftware/module-rh/blob/master/resources/Disposition/default/rh-module.svg?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-rh@master/resources/Disposition/default/rh-module.svg",
 			"description": "Example CRM module",
 			"module_name": "Crm",
-			"url": "https://github.com/simplicitesoftware/module-crm2?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-crm2",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-crm2.git\", \"branch\": \"main\" }}"
 		},
 		{
 			"name": "Booking",
-			"logo": "https://github.com/simplicitesoftware/module-booking/blob/master/resources/Disposition/default/booking-module-screenshot.svg?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-booking@master/resources/Disposition/default/booking-module-screenshot.svg",
 			"description": "Hotel room booking example",
 			"module_name": "Booking",
-			"url": "https://github.com/simplicitesoftware/module-booking?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-booking",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-booking.git\" }}"
 		},
 		{
 			"name": "Announce management",
-			"logo": "https://github.com/simplicitesoftware/module-agd/blob/master/resources/Disposition/default/agd-module-screenshot.svg?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-agd@master/resources/Disposition/default/agd-module-screenshot.svg",
 			"description": "",
 			"module_name": "Agd",
-			"url": "https://github.com/simplicitesoftware/module-agd?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-agd",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-agd.git\" }}"
 		},
 		{
 			"name": "Asset Management",
-			"logo": "https://github.com/simplicitesoftware/module-demandes/blob/master/resources/Disposition/default/demo-demandes.svg?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-demandes@master/resources/Disposition/default/demo-demandes.svg",
 			"description": "Internal asset management (Demandes)",
-			"url": "https://github.com/simplicitesoftware/module-demandes?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-demandes",
 			"module_name": "Demandes",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demandes.git\" } }"
 		}

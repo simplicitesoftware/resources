@@ -15,7 +15,7 @@
 		},
 		{
 			"name": "Features",
-			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
 			"description": "Implementation of major features for testing purposes",
 			"module_name": "SimFeatures",
 			"settings_by_platform": {
@@ -23,12 +23,12 @@
 				"~6.0.0": "{ \"type\": \"git\", \"branch\": \"6.0\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }",
 				"~5": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }"
 			},
-			"url": "https://github.com/simplicitesoftware/module-SimFeatures?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-SimFeatures",
 			"module_settings": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }"
 		},
 		{
 			"name": "AI integrations",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module_ai/resources/Disposition/default/ai_module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module_ai@master/resources/Disposition/default/ai_module.svg",
 			"description": "Currently compatible with Mistral AI and ChaGPT. Functionnalities: Chatbot, Module generation, Test data generation, Graph generation.",
 			"module_name": "AIBySimplicite",
 			"settings_by_platform": {
@@ -36,15 +36,16 @@
 				"~6.1.0-beta": "{ \"type\": \"git\", \"branch\": \"6.1\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module_ai.git\" } }",
 				"~6.0.0": "{ \"type\": \"git\", \"branch\": \"6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module_ai.git\" } }"
 			},
-			"url": "https://github.com/simplicitesoftware/module_ai?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module_ai",
 			"module_settings": "{ \"type\": \"git\", \"branch\": \"6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module_ai.git\" } }",
 			"min_version": "6.0"
 		},
 		{
 			"name": "App Store Manager",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
 			"description": "Publish a custom AppStore source for Simplicité instances",
 			"module_name": "SimStoreManager",
-			"url": "https://github.com/simplicitesoftware/module-SimStoreManager?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-SimStoreManager",
 			"settings_by_platform": {
 				"~6": "{ \"type\": \"git\", \"branch\": \"6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimStoreManager.git\" } }"
 			},
@@ -53,142 +54,143 @@
 		},
 		{
 			"name": "Modificator",
-			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-modificator/master/resources/Disposition/default/modificator-logo.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-modificator@master/resources/Disposition/default/modificator-logo.svg",
 			"description": "Let power users update translations and lists of values.",
 			"module_name": "Modificator",
-			"url": "https://github.com/simplicitesoftware/module-modificator?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-modificator",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-modificator.git\" } }"
 		},
 		{
 			"name": "Mail Tester",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
 			"description": "Trigger email sendings without bothering about business logic.",
 			"module_name": "MailTester",
 			"settings_by_platform": {
 				">=5": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"
 			},
-			"url": "https://github.com/simplicitesoftware/module-mailtester?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-mailtester",
 			"module_settings": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"
 		},
 		{
 			"name": "Hardened security",
-			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-modificator/master/resources/Disposition/default/modificator-logo.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-modificator@master/resources/Disposition/default/modificator-logo.svg",
 			"description": "Apply enhanced app-level security guidelines (does NOT apply infrastructure / reverse proxy / server level security guidelines). Please read module description before clearing the cache.",
 			"module_name": "SimSecure",
-			"url": "https://github.com/simplicitesoftware/module-SimSecure?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-SimSecure",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimSecure.git\" } }"
 		},
 		{
 			"name": "Trello integration",
-			"logo": "https://github.com/simplicitesoftware/module-trello/blob/master/resources/Disposition/default/trello-module.svg?raw=true",
-			"screenshot": "https://github.com/simplicitesoftware/module-trello/blob/master/resources/Disposition/default/trello-module-screenshot.png?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-trello@master/resources/Disposition/default/trello-module.svg",
+			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-trello@master/resources/Disposition/default/trello-module-screenshot.png",
 			"description": "Trello integration examples (external object, business object, webhook)",
 			"module_name": "Trello",
-			"url": "https://github.com/simplicitesoftware/module-trello?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-trello",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-trello.git\" } }"
 		},
 		{
 			"name": "Slack integration",
-			"logo": "https://github.com/simplicitesoftware/module-slack/blob/master/resources/Disposition/default/slack-module.svg?raw=true",
-			"screenshot": "https://github.com/simplicitesoftware/module-slack/blob/master/resources/Disposition/default/slack-module-screenshot.png?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-slack@master/resources/Disposition/default/slack-module.svg",
+			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-slack@master/resources/Disposition/default/slack-module-screenshot.png",
 			"description": "Slack integration examples (external object, webhook)",
 			"module_name": "Slack",
-			"url": "https://github.com/simplicitesoftware/module-slack?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-slack",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-slack.git\" } }"
 		},
 		{
 			"name": "ElasticSearch Indexer",
-			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-elasticsearchindexer/master/resources/Disposition/default/elasticsearch-logo.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-elasticsearchindexer@master/resources/Disposition/default/elasticsearch-logo.svg",
 			"description": "ElasticSearch integration example",
 			"module_name": "ElasticSearchIndexer",
-			"url": "https://github.com/simplicitesoftware/module-elasticsearchindexer?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-elasticsearchindexer",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-elasticsearchindexer.git\" } }"
 		},
 		{
 			"name": "CMS",
-			"logo": "https://github.com/simplicitesoftware/module-cms/blob/master/resources/Disposition/default/cms-module.svg?raw=true",
-			"screenshot": "https://github.com/simplicitesoftware/module-cms/blob/master/resources/Disposition/default/cms-module-screenshot.png?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-cms@master/resources/Disposition/default/cms-module.svg",
+			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-cms@master/resources/Disposition/default/cms-module-screenshot.png",
 			"description": "Content Management System (grapejs integration)",
 			"module_name": "CMS",
-			"url": "https://github.com/simplicitesoftware/module-cms?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-cms",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-cms.git\" } }"
 		},
 		{
 			"name": "SalesForce remote objects",
-			"logo": "https://github.com/simplicitesoftware/module-salesforce/blob/master/resources/Disposition/default/salesforce-module.svg?raw=true",
-			"screenshot": "https://github.com/simplicitesoftware/module-salesforce/blob/master/resources/Disposition/default/salesforce-module-screenshot.png?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-salesforce@master/resources/Disposition/default/salesforce-module.svg",
+			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-salesforce@master/resources/Disposition/default/salesforce-module-screenshot.png",
 			"description": "SalesForce remote objects examples (business objects)",
 			"module_name": "SalesForce",
-			"url": "https://github.com/simplicitesoftware/module-salesforce?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-salesforce",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-salesforce.git\" } }"
 		},
 		{
 			"name": "OpenDataSoft remote objects",
-			"logo": "https://github.com/simplicitesoftware/module-opendatasoft/blob/master/resources/Disposition/default/opendatasoft-module.svg?raw=true",
-			"screenshot": "https://github.com/simplicitesoftware/module-opendatasoft/blob/master/resources/Disposition/default/opendatasoft-module-screenshot.png?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-opendatasoft@master/resources/Disposition/default/opendatasoft-module.svg",
+			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-opendatasoft@master/resources/Disposition/default/opendatasoft-module-screenshot.png",
 			"description": "OpenDataSoft remote objects examples (business objects)",
 			"module_name": "OpenDataSoft",
-			"url": "https://github.com/simplicitesoftware/module-opendatasoft?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-opendatasoft",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-opendatasoft.git\" } }"
 		},
 		{
 			"name": "La Poste",
-			"logo": "https://raw.githubusercontent.com/simplicitesoftware/module-SimLaPoste/master/resources/Disposition/default/module-laposte.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-SimLaPoste@master/resources/Disposition/default/module-laposte.svg",
 			"description": "La Poste Datanova's integrations (Postal Codes Service Object)",
 			"module_name": "SimLaPoste",
-			"url": "https://github.com/simplicitesoftware/module-SimLaPoste?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-SimLaPoste",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimLaPoste.git\" } }"
 		},
 		{
 			"name": "ISO countries",
-			"logo": "https://github.com/simplicitesoftware/module-theming/blob/master/resources/Disposition/default/logo_simplicite_dark.svg?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
 			"description": "ISO 3166 countries",
 			"module_name": "ISOCountries",
-			"url": "https://github.com/simplicitesoftware/module-isocountries?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-isocountries",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-isocountries.git\" } }"
 		},
 		{
 			"name": "ISO languages",
-			"logo": "https://github.com/simplicitesoftware/module-theming/blob/master/resources/Disposition/default/logo_simplicite_dark.svg?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
 			"description": "ISO 639 languages",
 			"module_name": "ISOLanguages",
-			"url": "https://github.com/simplicitesoftware/module-isolanguages?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-isolanguages",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-isolanguages.git\" } }"
 		},
 		{
 			"name": "ISO currencies",
-			"logo": "https://github.com/simplicitesoftware/module-theming/blob/master/resources/Disposition/default/logo_simplicite_dark.svg?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
 			"description": "ISO 4217 currencies",
 			"module_name": "ISOCurrencies",
-			"url": "https://github.com/simplicitesoftware/module-isocurrencies?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-isocurrencies",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-isocurrencies.git\" } }"
 		},
 		{
 			"name": "Currencies conversion rates",
-			"logo": "https://github.com/simplicitesoftware/module-theming/blob/master/resources/Disposition/default/logo_simplicite_dark.svg?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
 			"description": "Currencies conversion rates using Fixer.io API. Requires ISO currencies module.",
 			"module_name": "Fixer",
-			"url": "https://github.com/simplicitesoftware/module-fixer?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-fixer",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-fixer.git\" } }"
 		},
 		{
 			"name": "XTab packaging",
-			"logo": "https://github.com/simplicitesoftware/module-theming/blob/master/resources/Disposition/default/logo_simplicite_dark.svg?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
 			"description": "XTab packaging module.",
 			"module_name": "XTab",
-			"url": "https://github.com/simplicitesoftware/module-xtab?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-xtab",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-xtab.git\" } }"
 		},
 		{
 			"name": "Keycloak config",
-			"logo": "https://github.com/simplicitesoftware/module-theming/blob/master/resources/Disposition/default/logo_simplicite_dark.svg?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
 			"description": "Keycloak module with parameters template and synchronization.",
 			"module_name": "Keycloak",
-			"url": "https://github.com/simplicitesoftware/module-keycloak?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-keycloak",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-keycloak.git\" } }"
 		},
 		{
 			"name": "HTML to PDF",
-			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
 			"description": "HTML to PDF tester tool",
 			"url": "https://community.simplicite.io/t/pdf-publication/2159/3",
 			"module_name": "Html2Pdf",
@@ -196,10 +198,10 @@
 		},
 		{
 			"name": "Theme Etat Français",
-			"logo": "https://github.com/simplicitesoftware/module-themeetat/blob/master/resources/Disposition/default/themeetat-module.svg?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-themeetat@master/resources/Disposition/default/themeetat-module.svg",
 			"description": "Theme Etat inspiré du Système de Design de l'Etat Français (DSFR)",
 			"module_name": "ThemeEtat",
-			"url": "https://github.com/simplicitesoftware/module-themeetat?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-themeetat",
 			"settings_by_platform": {
 				"~5": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }",
 				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }"
@@ -210,16 +212,16 @@
 		},
 		{
 			"name": "OpenAPI / Swagger tools",
-			"logo": "https://github.com/simplicitesoftware/module-openapitools/blob/master/resources/Disposition/default/openapi.svg?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-openapitools@master/resources/Disposition/default/openapi.svg",
 			"description": "OpenAPI / Swagger tools",
-			"url": "https://github.com/simplicitesoftware/module-openapitools?tab=readme-ov-file#readme",
+			"url": "https://github.com/simplicitesoftware/module-openapitools",
 			"module_name": "OpenAPITools",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-openapitools.git\" } }",
 			"min_version": "5.1"
 		},
 		{
 			"name": "Extra Themes",
-			"logo": "https://github.com/simplicitesoftware/module-theming/blob/master/resources/Disposition/default/simplicite_logo.svg?raw=true",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
 			"description": "Pack of additional themes.",
 			"module_name": "SimThemes",
 			"url": "https://github.com/simplicitesoftware/module-theming.git",

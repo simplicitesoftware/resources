@@ -3,10 +3,10 @@
 	"name": "Apps",
 	"apps": [
 		{
-			"name": "Human Ressources management",
+			"name": "Human Resources management",
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-rh@master/resources/Disposition/default/rh-module.svg",
 			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-rh@master/resources/Disposition/default/rh-module-screenshot.png",
-			"description": "Human Ressources management (employees, interviews, competencies, trainings)",
+			"description": "Human Resources management (employees, interviews, competencies, trainings)",
 			"module_name": "RH",
 			"settings_by_platform": {
 				"~5": "{ \"type\": \"git\", \"branch\": \"master\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-rh.git\" } }",
@@ -16,7 +16,7 @@
 		},
 		{
 			"name": "Art Collection Management",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-artil@master/resources/Disposition/default/artil-logo.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstore_images/artil-logo.svg",
 			"description": "Artil is an app for galleries, museums and art collectors. It's focused on inventory tasks and invoice generation.",
 			"module_name": "Artil",
 			"url": "https://simplicitesoftware.github.io/module-artil",
@@ -80,7 +80,7 @@
 			"name": "Velib demo",
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-velibdemo@master/resources/Disposition/default/velibdemo-module.svg",
 			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-velibdemo@master/resources/Disposition/default/velibdemo-module-screenshot.png",
-			"description": "Velib (Paris free floating bidkes service) demo",
+			"description": "Velib (Paris free floating bikes service) demo",
 			"module_name": "VelibDemo",
 			"url": "https://github.com/simplicitesoftware/module-velibdemo",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-velibdemo.git\" } }",
@@ -143,7 +143,7 @@
 		{
 			"name": "Asset Management",
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-demandes@master/resources/Disposition/default/demo-demandes.svg",
-			"description": "Internal asset management (Demandes)",
+			"description": "Internal asset management",
 			"url": "https://github.com/simplicitesoftware/module-demandes",
 			"module_name": "Demandes",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demandes.git\" } }"

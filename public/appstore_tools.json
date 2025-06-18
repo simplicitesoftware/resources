@@ -20,7 +20,8 @@
 			"description": "Implementation of major features for testing purposes",
 			"module_name": "SimFeatures",
 			"settings_by_platform": {
-				"^6.1 || ^6.2": "{ \"type\": \"git\", \"branch\": \"6.1\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }",
+				"^6.2": "{ \"type\": \"git\", \"branch\": \"6.2\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }",
+				"^6.1": "{ \"type\": \"git\", \"branch\": \"6.1\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }",
 				"~6.0.0": "{ \"type\": \"git\", \"branch\": \"6.0\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }",
 				"~5": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }"
 			},

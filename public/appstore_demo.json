@@ -76,12 +76,28 @@
 			"max_version": "5.3"
 		},
 		{
-			"name": "Demo sample frontend",
+			"name": "Demo sample public frontend",
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-demo-staticsite@master/resources/Disposition/default/demostaticsite-module.svg",
 			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-demo-staticsite@master/resources/Disposition/default/demostaticsite-module-screenshot.png",
-			"description": "Sample frontend for the order management demo",
+			"description": "Sample public frontend for the order management demo",
 			"module_name": "DemoStaticSite",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-staticsite.git\" } }",
+			"min_version": "5.3"
+		},
+		{
+			"name": "Demo sample custom UI disposition",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-demo@master/resources/Disposition/default/demo-module.svg",
+			"description": "Sample custom UI disposition for the order management demo",
+			"module_name": "DemoCustomDisp",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-custom-disposition.git\" } }",
+			"min_version": "5.3"
+		},
+		{
+			"name": "Demo sample custom UI disposition using DSFR components",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-demo@master/resources/Disposition/default/demo-module.svg",
+			"description": "Sample custom UI disposition using the DSFR components for the order management demo",
+			"module_name": "DemoDSFR",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-dsfr.git\" } }",
 			"min_version": "5.3"
 		},
 		{

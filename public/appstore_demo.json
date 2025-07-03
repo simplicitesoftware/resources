@@ -89,6 +89,10 @@
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-demo@master/resources/Disposition/default/demo-module.svg",
 			"description": "Sample custom UI disposition for the order management demo",
 			"module_name": "DemoCustomDisp",
+			"settings_by_platform": {
+				"~5": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-custom-disposition.git\" } }",
+				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-custom-disposition.git\" } }"
+			},
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-custom-disposition.git\" } }",
 			"min_version": "5.3"
 		},

@@ -222,6 +222,15 @@
 			"min_version": "5.1"
 		},
 		{
+			"name": "Flags",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
+			"description": "Flag icons",
+			"url": "https://github.com/simplicitesoftware/module-flags",
+			"module_name": "Flags",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-flags.git\" } }",
+			"min_version": "5.1"
+		},
+		{
 			"name": "Extra Themes",
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
 			"description": "Pack of additional themes.",

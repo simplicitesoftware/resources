@@ -69,7 +69,8 @@
 			"description": "Trigger email sendings without bothering about business logic.",
 			"module_name": "MailTester",
 			"settings_by_platform": {
-				">=5": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"
+				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }",
+				"~5.3": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"
 			},
 			"url": "https://github.com/simplicitesoftware/module-mailtester",
 			"module_settings": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"

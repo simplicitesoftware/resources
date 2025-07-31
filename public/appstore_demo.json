@@ -115,10 +115,20 @@
 		{
 			"name": "Demo AI integrations",
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-demo@master/resources/Disposition/default/demo-module.svg",
-			"description": "AI integrations in Demo for charts",
+			"description": "AI integrations in the order management demo for charts",
 			"module_name": "DemoAIAddons",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-ai\" } }",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-ai.git\" } }",
 			"min_version": "6.0"
+		},
+		{
+			"name": "Demo onboarding guide",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-demo@master/resources/Disposition/default/demo-module.svg",
+			"description": "Onboarding guide for the order management demo",
+			"module_name": "DemoGuide",
+			"settings_by_platform": {
+				">=6.3": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-guide.git\" } }"
+			},
+			"min_version": "6.3"
 		}
 	]
 }

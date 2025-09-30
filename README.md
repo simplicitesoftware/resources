@@ -1,11 +1,6 @@
 Simplicité public resources
 ===========================
 
-Adding
-------
-
-To add a resource, add a line to the `update_from_docs.sh` script
-
 Using
 -----
 

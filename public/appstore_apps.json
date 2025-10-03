@@ -22,7 +22,7 @@
 			"url": "https://simplicitesoftware.github.io/module-artil",
 			"settings_by_platform": {
 				"~5.3": "{ \"type\": \"git\", \"branch\": \"v5\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-artil.git\" } }",
-				"~6.1": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-artil.git\" } }"
+				"~6.2": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-artil.git\" } }"
 			},
 			"module_settings": "{ \"type\": \"git\", \"branch\": \"v5\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-artil.git\" } }"
 		},

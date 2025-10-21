@@ -1,7 +1,7 @@
 services:
   simplicite:
     image: registry.simplicite.io/platform:6-latest
-    restart: always
+    restart: unless-stopped
     container_name: ${COMPOSE_PROJECT_NAME}
     environment:
       AI_API_PARAM: |

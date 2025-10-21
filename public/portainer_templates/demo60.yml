@@ -1,7 +1,7 @@
 services:
   demo60:
-    image: registry.simplicite.io/platform:6.0-light
-    restart: always
+    image: registry.simplicite.io/platform:6-light
+    restart: unless-stopped
     container_name: demo60
     environment:
       MODULES_IMPORT_SPEC: |

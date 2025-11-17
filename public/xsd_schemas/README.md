@@ -19,7 +19,7 @@ The standard XML files refers the relative path of the attached documents.
 
 E.g.
 
-```plaintext
+```text
 MyFile.xml
 |_ folder 1
 |  |_ subfolder 1.1
@@ -39,7 +39,7 @@ The separator is by default a semicolon `;` but it can be an arbitrary character
 
 E.g.
 
-```plaintext
+```text
 myCode;myValue;myReferenceId.myReferencedCode;myReferenceId.myReferencedValue
 Code 1;Label 1;Ref code 1;Ref value 1
 Code 2;Label 2;Ref code 2;Ref value 2

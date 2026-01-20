@@ -11,7 +11,8 @@
 			"module_name": "Demo",
 			"settings_by_platform": {
 				"~5": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }",
-				">=6.2": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }"
+				">=6.2": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }",
+				">=7.0": "{ \"type\": \"git\", \"branch\": \"v7\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }"
 			},
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }",
 			"min_version": "5.3",

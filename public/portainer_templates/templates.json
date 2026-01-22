@@ -3,46 +3,13 @@
 	"templates": [
 		{
 			"type": 3,
-			"title": "Simplicité v6 demo / HSQLDB",
-			"description": "Simplicité platform v6 using embedded HSQLDB database with the demo application",
+			"title": "Simplicité - Test",
+			"description": "Simplicité platform with no persistence (restart = clean slate). Pre-installed with Demo and SimFeatures modules.",
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
 			"platform": "linux",
 			"repository": {
 				"url": "https://github.com/simplicitesoftware/resources",
-				"stackfile": "public/portainer_templates/demo6-hsqldb.yml"
-			}
-		},
-		{
-			"type": 3,
-			"title": "Simplicité v6 demo / PostgreSQL",
-			"description": "Simplicité platform v6 using PostgreSQL database the with demo application",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
-			"platform": "linux",
-			"repository": {
-				"url": "https://github.com/simplicitesoftware/resources",
-				"stackfile": "public/portainer_templates/demo6-postgresql.yml"
-			}
-		},
-		{
-			"type": 3,
-			"title": "Simplicité v6 demo / MySQL",
-			"description": "Simplicité platform v6 using MySQL database with the demo application",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
-			"platform": "linux",
-			"repository": {
-				"url": "https://github.com/simplicitesoftware/resources",
-				"stackfile": "public/portainer_templates/demo6-mysql.yml"
-			}
-		},
-		{
-			"type": 3,
-			"title": "Simplicité v6 Demo & Features ",
-			"description": "Simplicité platform v6 preloaded with demo & features",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
-			"platform": "linux",
-			"repository": {
-				"url": "https://github.com/simplicitesoftware/resources",
-				"stackfile": "public/portainer_templates/demo6-hsql-importspec.yml"
+				"stackfile": "public/portainer_templates/demo-tmp.yml"
 			},
 			"env": [
 				{
@@ -54,12 +21,13 @@
 		},
 		{
 			"type": 3,
-			"title": "Simplicité v6 Demo, Features, AI",
+			"title": "Simplicité - AI",
+			"description": "Simplicité platform with no persistence (restart = clean slate). Pre-installed with Demo, AI & SimFeatures modules.",
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
 			"platform": "linux",
 			"repository": {
 				"url": "https://github.com/simplicitesoftware/resources",
-				"stackfile": "public/portainer_templates/demo6-openai.yml"
+				"stackfile": "public/portainer_templates/demo-tmp-ai.yml"
 			},
 			"env": [
 				{
@@ -77,6 +45,60 @@
 				{
 				  "name": "OPENAI_API_KEY",
 				  "label": "OpenAI API Key"
+				}
+			]
+		},
+		{
+			"type": 3,
+			"title": "Simplicité - HSQLDB",
+			"description": "Simplicité platform using embedded HSQLDB database (with volume persistence). Pre-installed with Demo module.",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
+			"platform": "linux",
+			"repository": {
+				"url": "https://github.com/simplicitesoftware/resources",
+				"stackfile": "public/portainer_templates/demo-db-hsqldb.yml"
+			},
+			"env": [
+				{
+				  "name": "URL",
+				  "label": "Host URL",
+				  "description": "URL"
+				}
+			]
+		},
+		{
+			"type": 3,
+			"title": "Simplicité - PostgreSQL",
+			"description": "Simplicité platform using PostgreSQL database in dedicated container (with volume persistence). Pre-installed with Demo module.",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
+			"platform": "linux",
+			"repository": {
+				"url": "https://github.com/simplicitesoftware/resources",
+				"stackfile": "public/portainer_templates/demo-db-postgresql.yml"
+			},
+			"env": [
+				{
+				  "name": "URL",
+				  "label": "Host URL",
+				  "description": "URL"
+				}
+			]
+		},
+		{
+			"type": 3,
+			"title": "Simplicité - MySQL",
+			"description": "Simplicité platform using MySQL database in dedicated container (with volume persistence). Pre-installed with Demo module.",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
+			"platform": "linux",
+			"repository": {
+				"url": "https://github.com/simplicitesoftware/resources",
+				"stackfile": "public/portainer_templates/demo-db-mysql.yml"
+			},
+			"env": [
+				{
+				  "name": "URL",
+				  "label": "Host URL",
+				  "description": "URL"
 				}
 			]
 		}

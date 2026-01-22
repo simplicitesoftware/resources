@@ -1,0 +1,43 @@
+#=====================================#
+#  ___ _            _ _    _ _    __  #
+# / __(_)_ __  _ __| (_)__(_) |_ /_/  #
+# \__ \ | '  \| '_ \ | / _| |  _/ -_) #
+# |___/_|_|_|_| .__/_|_\__|_|\__\___| #
+#             |_|                     #
+#=====================================#
+services:
+  simplicite:
+    image: registry.simplicite.io/platform:6.3
+    restart: unless-stopped
+    container_name: ${COMPOSE_PROJECT_NAME}-app
+    environment:
+      IO_PASSWORD: "${IO_PASSWORD}" # Ignored unless 32 chars. Define through environment variable.
+      DEV_MODE: true
+      SIMPLICITE_SYSPARAM_USE_IO: "yes"
+      SIMPLICITE_SYSPARAM_USE_IO_TESTER: "yes"
+      DEMO_NB_ORDERS: 100
+      MODULES_IMPORT_SPEC: |
+        title: "${COMPOSE_PROJECT_NAME}"
+        modules:
+          - name: "Demo"
+            git: 
+              uri: "https://github.com/simplicitesoftware/module-demo.git"
+              branch: "v6"
+            datasets: true
+            unittests: true
+          - name: "SimFeatures"
+            git: 
+              uri: "https://github.com/simplicitesoftware/module-SimFeatures.git"
+              branch: "6.3"
+    networks:
+      - proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}-app.rule=Host(`${URL}`)"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}-app.entrypoints=websecure"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}-app.tls.certresolver=leresolver"
+      - "traefik.http.services.${COMPOSE_PROJECT_NAME}-app.loadbalancer.server.port=8443"
+networks:
+  proxy:
+    name: proxy
+    external: true

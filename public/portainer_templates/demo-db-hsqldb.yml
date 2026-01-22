@@ -9,18 +9,22 @@ services:
   demo:
     image: registry.simplicite.io/platform:6-latest
     restart: unless-stopped
-    container_name: demo
+    container_name: ${COMPOSE_PROJECT_NAME}-app
     environment:
-      IO_PASSWORD: "_a_very_strong_password_"
+      IO_PASSWORD: "${IO_PASSWORD}" # Ignored unless 32 chars. Define through environment variable.
+      DEV_MODE: true
+      SIMPLICITE_SYSPARAM_USE_IO: "yes"
+      SIMPLICITE_SYSPARAM_USE_IO_TESTER: "yes"
+      DEMO_NB_ORDERS: 100
       MODULES_IMPORT_SPEC: |
-        title: "Demo v6"
+        title: "${COMPOSE_PROJECT_NAME}"
         modules:
           - name: "Demo"
-            version: "6"
-            git:
+            git: 
               uri: "https://github.com/simplicitesoftware/module-demo.git"
               branch: "v6"
             datasets: true
+            unittests: true
     volumes:
       - db:/usr/local/tomcat/webapps/ROOT/WEB-INF/db
       - dbdoc:/usr/local/tomcat/webapps/ROOT/WEB-INF/dbdoc
@@ -28,10 +32,10 @@ services:
       - proxy
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.demo.rule=Host(`demo.my.domain`)"
-      - "traefik.http.routers.demo.entrypoints=websecure"
-      - "traefik.http.routers.demo.tls.certresolver=leresolver"
-      - "traefik.http.services.demo.loadbalancer.server.port=8443"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}-app.rule=Host(`${URL}`)"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}-app.entrypoints=websecure"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}-app.tls.certresolver=leresolver"
+      - "traefik.http.services.${COMPOSE_PROJECT_NAME}-app.loadbalancer.server.port=8443"
 volumes:
   db:
   dbdoc:

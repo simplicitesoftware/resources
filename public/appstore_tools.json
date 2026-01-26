@@ -95,6 +95,15 @@
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimSecure.git\" } }"
 		},
 		{
+			"name": "Module PDF export",
+			"description": "iText PDF module export, for backward compatibility.",
+			"module_name": "SimItextPdfModule",
+			"settings_by_platform": {
+				"~6.3": "{ \"type\": \"git\", \"branch\": \"6.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimItextPdfModule.git\" } }"
+			},
+			"url": "https://github.com/simplicitesoftware/module-SimItextPdfModule"
+		},
+		{
 			"name": "Trello integration",
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-trello@master/resources/Disposition/default/trello-module.svg",
 			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-trello@master/resources/Disposition/default/trello-module-screenshot.png",

@@ -99,7 +99,7 @@
 			"description": "iText PDF module export, for backward compatibility.",
 			"module_name": "SimItextPdfModule",
 			"settings_by_platform": {
-				"~6.3": "{ \"type\": \"git\", \"branch\": \"6.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimItextPdfModule.git\" } }"
+				"~6": "{ \"type\": \"git\", \"branch\": \"6.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimItextPdfModule.git\" } }"
 			},
 			"url": "https://github.com/simplicitesoftware/module-SimItextPdfModule"
 		},

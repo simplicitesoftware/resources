@@ -49,8 +49,12 @@
 			"name": "Demo dashboard",
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-demo-dashboard@master/resources/Disposition/default/demodashboard-module.svg",
 			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-demo-dashboard@master/resources/Disposition/default/demodashboard-module-screenshot.png",
-			"description": "Google charts dashboard for the order management demo",
+			"description": "Dashboard components for the order management demo",
 			"module_name": "DemoDashboard",
+			"settings_by_platform": {
+				"~5": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-dashboard.git\" } }",
+				">=6.2": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-dashboard.git\" } }"
+			},
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-dashboard.git\" } }",
 			"min_version": "5.3"
 		},

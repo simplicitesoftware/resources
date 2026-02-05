@@ -10,14 +10,7 @@
 			"repository": {
 				"url": "https://github.com/simplicitesoftware/resources",
 				"stackfile": "public/portainer_templates/demo-tmp.yml"
-			},
-			"env": [
-				{
-				  "name": "URL",
-				  "label": "Host URL",
-				  "description": "URL"
-				}
-			]
+			}
 		},
 		{
 			"type": 3,
@@ -30,10 +23,6 @@
 				"stackfile": "public/portainer_templates/demo-tmp-ai.yml"
 			},
 			"env": [
-				{
-					"name": "URL",
-					"label": "Host URL"
-				},
 				{
 					"name": "OPENAI_ORG",
 					"label": "OpenAI Organization"
@@ -57,14 +46,7 @@
 			"repository": {
 				"url": "https://github.com/simplicitesoftware/resources",
 				"stackfile": "public/portainer_templates/demo-db-hsqldb.yml"
-			},
-			"env": [
-				{
-				  "name": "URL",
-				  "label": "Host URL",
-				  "description": "URL"
-				}
-			]
+			}
 		},
 		{
 			"type": 3,
@@ -75,14 +57,7 @@
 			"repository": {
 				"url": "https://github.com/simplicitesoftware/resources",
 				"stackfile": "public/portainer_templates/demo-db-postgresql.yml"
-			},
-			"env": [
-				{
-				  "name": "URL",
-				  "label": "Host URL",
-				  "description": "URL"
-				}
-			]
+			}
 		},
 		{
 			"type": 3,
@@ -93,14 +68,7 @@
 			"repository": {
 				"url": "https://github.com/simplicitesoftware/resources",
 				"stackfile": "public/portainer_templates/demo-db-mysql.yml"
-			},
-			"env": [
-				{
-				  "name": "URL",
-				  "label": "Host URL",
-				  "description": "URL"
-				}
-			]
+			}
 		}
 	]
 }

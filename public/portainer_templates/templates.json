@@ -5,7 +5,6 @@
 			"type": 3,
 			"title": "Simplicité - Test",
 			"description": "Simplicité platform with no persistence (restart = clean slate). Pre-installed with Demo and SimFeatures modules.",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
 			"platform": "linux",
 			"repository": {
 				"url": "https://github.com/simplicitesoftware/resources",

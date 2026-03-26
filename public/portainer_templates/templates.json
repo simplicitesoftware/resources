@@ -16,13 +16,16 @@
 			"type": 3,
 			"title": "Simplicité - AI",
 			"description": "Simplicité platform with no persistence (restart = clean slate). Pre-installed with Demo, AI & SimFeatures modules.",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
 			"platform": "linux",
 			"repository": {
 				"url": "https://github.com/simplicitesoftware/resources",
 				"stackfile": "public/portainer_templates/demo-tmp-ai.yml"
 			},
 			"env": [
+				{
+					"name": "IO_PASSWORD",
+					"label": "IO_PASSWORD"
+				},
 				{
 					"name": "OPENAI_ORG",
 					"label": "OpenAI Organization"
@@ -41,34 +44,49 @@
 			"type": 3,
 			"title": "Simplicité - HSQLDB",
 			"description": "Simplicité platform using embedded HSQLDB database (with volume persistence). Pre-installed with Demo module.",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
 			"platform": "linux",
 			"repository": {
 				"url": "https://github.com/simplicitesoftware/resources",
 				"stackfile": "public/portainer_templates/demo-db-hsqldb.yml"
-			}
+			},
+			"env": [
+				{
+					"name": "IO_PASSWORD",
+					"label": "IO_PASSWORD"
+				}
+			]
 		},
 		{
 			"type": 3,
 			"title": "Simplicité - PostgreSQL",
 			"description": "Simplicité platform using PostgreSQL database in dedicated container (with volume persistence). Pre-installed with Demo module.",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
 			"platform": "linux",
 			"repository": {
 				"url": "https://github.com/simplicitesoftware/resources",
 				"stackfile": "public/portainer_templates/demo-db-postgresql.yml"
-			}
+			},
+			"env": [
+				{
+					"name": "IO_PASSWORD",
+					"label": "IO_PASSWORD"
+				}
+			]
 		},
 		{
 			"type": 3,
 			"title": "Simplicité - MySQL",
 			"description": "Simplicité platform using MySQL database in dedicated container (with volume persistence). Pre-installed with Demo module.",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources/public/logo_simplicite/app/icon256.png",
 			"platform": "linux",
 			"repository": {
 				"url": "https://github.com/simplicitesoftware/resources",
 				"stackfile": "public/portainer_templates/demo-db-mysql.yml"
-			}
+			},
+			"env": [
+				{
+					"name": "IO_PASSWORD",
+					"label": "IO_PASSWORD"
+				}
+			]
 		}
 	]
 }

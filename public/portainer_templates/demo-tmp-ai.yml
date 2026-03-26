@@ -1,6 +1,6 @@
 services:
   simplicite:
-    image: registry.simplicite.io/platform:6-latest
+    image: registry.simplicite.io/platform:6.3
     restart: unless-stopped
     container_name: ${COMPOSE_PROJECT_NAME}
     environment:
@@ -24,27 +24,23 @@ services:
         title: "Demo"
         modules:
           - name: "Demo"
-            version: "9999"
-            git: 
+            git:
               uri: "https://github.com/simplicitesoftware/module-demo.git"
               branch: "v6"
             datasets: true
             unittests: true
           - name: "AIBySimplicite"
-            version: "9999"
-            git: 
+            git:
               uri: "https://github.com/simplicitesoftware/module_ai.git"
-              branch: "6.1"
+              branch: "6.3"
           - name: "DemoAIAddons"
-            version: "9999"
             git:
               uri: "https://github.com/simplicitesoftware/module-demo-ai.git"
               branch: "6"
           - name: "SimFeatures"
-            version: "9999"
-            git: 
+            git:
               uri: "https://github.com/simplicitesoftware/module-SimFeatures.git"
-              branch: "6.1"
+              branch: "6.3"
     networks:
       - proxy
     labels:
@@ -55,5 +51,4 @@ services:
       - "simplicite.subdomain=${COMPOSE_PROJECT_NAME}"
 networks:
   proxy:
-    name: proxy
     external: true

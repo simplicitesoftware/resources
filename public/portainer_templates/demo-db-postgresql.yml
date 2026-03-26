@@ -7,7 +7,7 @@
 #=====================================#
 services:
   db:
-    image: postgres:latest
+    image: postgres:17
     container_name: ${COMPOSE_PROJECT_NAME}-db
     restart: unless-stopped
     environment:
@@ -16,10 +16,10 @@ services:
       POSTGRES_USER: "simplicite"
       POSTGRES_PASSWORD: "simplicite"
       POSTGRES_DB: "simplicite"
-    networks:
-      - proxy
     volumes:
-      - db:/var/lib/postgresql/data
+      - db:/var/lib/postgresql/data    
+    networks:
+      - custom
   simplicite:
     image: registry.simplicite.io/platform:6-latest
     restart: unless-stopped
@@ -29,7 +29,7 @@ services:
       TOMCAT_TIMEZONE: "Europe/Paris"
       DB_SETUP: "true"
       DB_VENDOR: "postgresql"
-      DB_HOST: "${COMPOSE_PROJECT_NAME}-db"
+      DB_HOST: db
       DB_USER: "simplicite"
       DB_PASSWORD: "simplicite"
       DB_NAME: "simplicite"
@@ -48,6 +48,7 @@ services:
       - dbdoc:/usr/local/tomcat/webapps/ROOT/WEB-INF/dbdoc
     networks:
       - proxy
+      - custom
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.${COMPOSE_PROJECT_NAME}-app.entrypoints=websecure"
@@ -55,10 +56,11 @@ services:
       - "traefik.http.services.${COMPOSE_PROJECT_NAME}-app.loadbalancer.server.port=8443"
       - "simplicite.subdomain=${COMPOSE_PROJECT_NAME}"
     depends_on:
-      - "${COMPOSE_PROJECT_NAME}-db"
+      - db
 volumes:
   db:
   dbdoc:
 networks:
   proxy:
-    name: proxy
+    external: true
+  custom:

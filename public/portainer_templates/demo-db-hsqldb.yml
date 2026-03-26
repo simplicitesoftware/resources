@@ -41,4 +41,4 @@ volumes:
   dbdoc:
 networks:
   proxy:
-    name: proxy
+    external: true

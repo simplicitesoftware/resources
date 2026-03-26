@@ -39,5 +39,4 @@ services:
       - "simplicite.subdomain=${COMPOSE_PROJECT_NAME}"
 networks:
   proxy:
-    name: proxy
     external: true

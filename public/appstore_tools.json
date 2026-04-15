@@ -95,8 +95,9 @@
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimSecure.git\" } }"
 		},
 		{
-			"name": "Module PDF export",
-			"description": "iText PDF module export, for backward compatibility.",
+			"name": "Module legacy PDF export",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/legacy-pdf-doc.svg",
+			"description": "Legacy PDF module export based on iText, for backward compatibility.",
 			"module_name": "SimItextPdfModule",
 			"settings_by_platform": {
 				"~6": "{ \"type\": \"git\", \"branch\": \"v6.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimItextPdfModule.git\" } }"

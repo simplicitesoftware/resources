@@ -2,35 +2,21 @@
 <!--
 == SIMPLICITE - runtime & framework
 == http://www.simplicite.fr
-== Versions 6
+== Versions 5
 == Copyright(c)2006-2026 Simplicite Software. All rights reserved.
 -->
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-	xmlns="http://www.simplicite.fr/base" version="6"
+	xmlns="http://www.simplicite.fr/base" version="5"
 	targetNamespace="http://www.simplicite.fr/base" elementFormDefault="qualified">
 
 	<xsd:element name="simplicite">
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element name="clearcache" type="clearcache" minOccurs="0" maxOccurs="1" />
 				<xsd:element name="object" type="object" minOccurs="0" maxOccurs="unbounded" />
 			</xsd:sequence>
 			<xsd:anyAttribute processContents="skip" />
 		</xsd:complexType>
 	</xsd:element>
-
-	<xsd:complexType name="clearcache" mixed="true">
-		<xsd:attribute name="clearcache">
-			<xsd:simpleType>
-				<xsd:restriction base="xsd:string">
-					<xsd:enumeration value="none"></xsd:enumeration>
-					<xsd:enumeration value="before"></xsd:enumeration>
-					<xsd:enumeration value="after"></xsd:enumeration>
-					<xsd:enumeration value="both"></xsd:enumeration>
-				</xsd:restriction>
-			</xsd:simpleType>
-		</xsd:attribute>
-	</xsd:complexType>
 
 	<xsd:complexType name="object">
 		<xsd:sequence>

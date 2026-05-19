@@ -2,8 +2,8 @@
 <!--
 == SIMPLICITE - runtime & framework
 == http://www.simplicite.fr
-== Versions 4.x
-== Copyright(c)2006-2023 Simplicite Software. All rights reserved.
+== Versions 4
+== Copyright(c)2006-2024 Simplicite Software. All rights reserved.
 -->
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 	xmlns="http://www.simplicite.fr/base" version="4"
@@ -27,13 +27,6 @@
 		<xsd:anyAttribute processContents="skip" />
 	</xsd:complexType>
 
-	<xsd:complexType name="data">
-		<xsd:sequence>
-			<xsd:any minOccurs="0" maxOccurs="unbounded" processContents="skip" />
-		</xsd:sequence>
-		<xsd:anyAttribute processContents="skip" />
-	</xsd:complexType>
-
 	<xsd:complexType name="action" mixed="true">
 		<xsd:attribute name="if">
 			<xsd:simpleType>
@@ -43,6 +36,14 @@
 				</xsd:restriction>
 			</xsd:simpleType>
 		</xsd:attribute>
+	</xsd:complexType>
+
+	<xsd:complexType name="data">
+		<xsd:sequence>
+			<!-- fields -->
+			<xsd:any minOccurs="0" maxOccurs="unbounded" processContents="skip" />
+		</xsd:sequence>
+		<xsd:anyAttribute processContents="skip" />
 	</xsd:complexType>
 
 </xsd:schema>

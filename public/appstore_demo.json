@@ -11,8 +11,8 @@
 			"module_name": "Demo",
 			"settings_by_platform": {
 				"~5": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }",
-				">=6.2": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }",
-				">=7.0": "{ \"type\": \"git\", \"branch\": \"v7\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }"
+				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }",
+				"~7": "{ \"type\": \"git\", \"branch\": \"v7\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }"
 			},
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }",
 			"min_version": "5.3",
@@ -53,8 +53,8 @@
 			"module_name": "DemoDashboard",
 			"settings_by_platform": {
 				"~5": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-dashboard.git\" } }",
-				">=6.2": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-dashboard.git\" } }",
-				">=7.0": "{ \"type\": \"git\", \"branch\": \"v7\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-dashboard.git\" } }"
+				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-dashboard.git\" } }",
+				"~7": "{ \"type\": \"git\", \"branch\": \"v7\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-dashboard.git\" } }"
 			},
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-dashboard.git\" } }",
 			"min_version": "5.3"
@@ -75,8 +75,8 @@
 			"module_name": "DemoAPIs",
 			"settings_by_platform": {
 				"~5": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-apis.git\" } }",
-				">=6.2": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-apis.git\" } }",
-				">=7.0": "{ \"type\": \"git\", \"branch\": \"v7\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-apis.git\" } }"
+				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-apis.git\" } }",
+				"~7": "{ \"type\": \"git\", \"branch\": \"v7\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-apis.git\" } }"
 			},
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-apis.git\" } }",
 			"min_version": "5.3",
@@ -98,8 +98,8 @@
 			"module_name": "DemoCustomDisp",
 			"settings_by_platform": {
 				"~5": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-custom-disposition.git\" } }",
-				">=6.2": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-custom-disposition.git\" } }",
-				">=7.0": "{ \"type\": \"git\", \"branch\": \"v7\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-custom-disposition.git\" } }"
+				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-custom-disposition.git\" } }",
+				"~7": "{ \"type\": \"git\", \"branch\": \"v7\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-custom-disposition.git\" } }"
 			},
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-custom-disposition.git\" } }",
 			"min_version": "5.3"

@@ -277,7 +277,7 @@
 		},
 		{
 			"name": "DocuSign SDK",
-			"logo": "https://cdn.bfldr.com/HIN7H4LI/at/24jkvf3q7tzrbwrhrp99g3/Docusign_Vertical_Black.svg?auto=webp&format=svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/docusign.svg",
 			"description": "Bundle of DocuSign SDK for Simplicité",
 			"url": "https://github.com/simplicitesoftware/module-docusign-libs",
 			"module_name": "DocuSignLibs",

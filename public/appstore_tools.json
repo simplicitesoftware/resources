@@ -274,7 +274,15 @@
 				">=7.0": "{ \"type\": \"git\", \"branch\": \"main\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mcpserver.git\" } }"
 			},
 			"min_version": "7.0"
+		},
+		{
+			"name": "DocuSign SDK",
+			"logo": "https://cdn.bfldr.com/HIN7H4LI/at/24jkvf3q7tzrbwrhrp99g3/Docusign_Vertical_Black.svg?auto=webp&format=svg",
+			"description": "Bundle of DocuSign SDK for Simplicité",
+			"url": "https://github.com/simplicitesoftware/module-docusign-libs",
+			"module_name": "DocuSignLibs",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-docusign-libs.git\" } }",
+			"min_version": "7.0"
 		}
-
 	]
 }

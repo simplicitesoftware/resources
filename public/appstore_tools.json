@@ -265,17 +265,6 @@
 			"min_version": "6.1"
 		},
 		{
-			"name": "MCP Server",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
-			"module_name": "MCPServer",
-			"url": "https://github.com/simplicitesoftware/module-mcpserver",
-			"description": "Configure prompts per module to enable AI agents to interact with your application.",
-			"settings_by_platform": {
-				">=7.0": "{ \"type\": \"git\", \"branch\": \"main\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mcpserver.git\" } }"
-			},
-			"min_version": "7.0"
-		},
-		{
 			"name": "DocuSign SDK",
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/docusign.svg",
 			"description": "Bundle of DocuSign SDK for Simplicité",

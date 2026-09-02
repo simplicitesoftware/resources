@@ -260,9 +260,18 @@
 			"module_name": "SimThemes",
 			"url": "https://github.com/simplicitesoftware/module-theming.git",
 			"settings_by_platform": {
-				">=6.1.0-beta": "{ \"type\": \"git\", \"branch\": \"master\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-theming.git\" } }"
+				">=6.1": "{ \"type\": \"git\", \"branch\": \"master\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-theming.git\" } }"
 			},
 			"min_version": "6.1"
+		},
+		{
+			"name": "Chatbot",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/chatbot.svg",
+			"description": "Customisable chatbot (widget and API)",
+			"url": "https://github.com/simplicitesoftware/module-chatbot",
+			"module_name": "Chatbot",
+			"module_settings": "{ \"type\": \"git\", \"branch\": \"main\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-chatbot.git\" } }",
+			"min_version": "7.0"
 		},
 		{
 			"name": "DocuSign SDK",

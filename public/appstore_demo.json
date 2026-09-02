@@ -114,7 +114,7 @@
 		},
 		{
 			"name": "Demo Data-link",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/demo-datalink-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/demo-datalink.svg",
 			"description": "DataLink example for the order management demo",
 			"module_name": "DemoDataLink",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo-datalink.git\" } }",

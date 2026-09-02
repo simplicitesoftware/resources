@@ -4,7 +4,7 @@
 	"apps": [
 		{
 			"name": "Human Resources management",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/rh-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/hr.svg",
 			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-rh@master/resources/Disposition/default/rh-module-screenshot.png",
 			"description": "Human Resources management (employees, interviews, competencies, trainings)",
 			"module_name": "RH",
@@ -16,7 +16,7 @@
 		},
 		{
 			"name": "Art Collection Management",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/artil-logo.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/artil.svg",
 			"description": "Artil is an app for galleries, museums and art collectors. It's focused on inventory tasks and invoice generation.",
 			"module_name": "Artil",
 			"url": "https://simplicitesoftware.github.io/module-artil",
@@ -28,7 +28,7 @@
 		},
 		{
 			"name": "Documentation Management",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/training-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/training.svg",
 			"description": "Lesson model, Vue.js frontend, opt-in git/filesystem synchronization, opt-in elasticsearch",
 			"module_name": "Training",
 			"url": "https://github.com/simplicitesoftware/module-training",
@@ -39,7 +39,7 @@
 		},
 		{
 			"name": "Ticketing Management",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/projects-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/ticketing.svg",
 			"description": "Ticketing management",
 			"module_name": "Projects",
 			"url": "https://github.com/simplicitesoftware/module-projects",
@@ -47,7 +47,7 @@
 		},
 		{
 			"name": "Project Management",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/product_management.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/product-management.svg",
 			"description": "Gantt and tasks management",
 			"module_name": "ProjectManagement",
 			"url": "https://github.com/simplicitesoftware/module_project_management",
@@ -68,7 +68,7 @@
 		},
 		{
 			"name": "Pizzeria demo",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/pizzeria-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/pizzeria.svg",
 			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-pizzeria@master/resources/Disposition/default/pizzeria-module-screenshot.png",
 			"description": "Pizzeria management demo",
 			"module_name": "Pizzeria",
@@ -78,7 +78,7 @@
 		},
 		{
 			"name": "Velib demo",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/velibdemo-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/velib.svg",
 			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-velibdemo@master/resources/Disposition/default/velibdemo-module-screenshot.png",
 			"description": "Velib (Paris free floating bikes service) demo",
 			"module_name": "VelibDemo",
@@ -88,7 +88,7 @@
 		},
 		{
 			"name": "Restaurants rating backend with NodeRED frontend",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/restaurants-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/restaurants.svg",
 			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-restaurants@master/resources/Disposition/default/restaurants-module-screenshot.png",
 			"description": "Restaurants rating demo (backend) + NodeRED nodes for the frontend",
 			"module_name": "RestaurantsDemo",
@@ -98,7 +98,7 @@
 		},
 		{
 			"name": "Q&A",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/qa-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/qa.svg",
 			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-questionsandanswers@master/resources/Disposition/default/qa-module-screenshot.png",
 			"description": "Questions and Answers (backend + frontend)",
 			"module_name": "QuestionsAndAnswers",
@@ -108,7 +108,7 @@
 		},
 		{
 			"name": "Burger shop",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/burgers-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/burgers.svg",
 			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-burgers@master/resources/Disposition/default/burgers-module-screenshot.png",
 			"description": "Burger shop (backend + frontend)",
 			"module_name": "Burgers",
@@ -118,7 +118,7 @@
 		},
 		{
 			"name": "Customer Relationship Management",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/rh-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/crm.svg",
 			"description": "Example CRM module",
 			"module_name": "Crm",
 			"url": "https://github.com/simplicitesoftware/module-crm2",
@@ -126,7 +126,7 @@
 		},
 		{
 			"name": "Booking",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/booking-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/booking.svg",
 			"description": "Hotel room booking example",
 			"module_name": "Booking",
 			"url": "https://github.com/simplicitesoftware/module-booking",
@@ -134,7 +134,7 @@
 		},
 		{
 			"name": "Announce management",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/agd-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/agd.svg",
 			"description": "",
 			"module_name": "Agd",
 			"url": "https://github.com/simplicitesoftware/module-agd",
@@ -142,7 +142,7 @@
 		},
 		{
 			"name": "Asset Management",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/demo-demandes.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/asset-management.svg",
 			"description": "Internal asset management",
 			"url": "https://github.com/simplicitesoftware/module-demandes",
 			"module_name": "Demandes",

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="250px" height="166px" viewBox="0 0 250 166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>agd-module-screenshot</title>
+    <title>agd</title>
     <defs>
         <path d="M232,159 L10,159 L10,11 L232,11 Z" id="path-1"></path>
         <linearGradient x1="50.005266%" y1="99.995579%" x2="50.005266%" y2="-0.010142%" id="linearGradient-2">
@@ -9,7 +9,7 @@
             <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="agd-module-screenshot" stroke="none" fill="none" xlink:href="#path-1">
+    <g id="agd" stroke="none" fill="none" xlink:href="#path-1">
         <g id="Group" stroke-width="1" fill-rule="evenodd" transform="translate(10, 11)">
             <polygon id="Path" points="0 0 222 0 222 148 0 148"></polygon>
             <g transform="translate(74.592, -0)">
@@ -152,6 +152,5 @@
                 </g>
             </g>
         </g>
-        <g id="agd-module-screenshot-(2)"></g>
     </g>
 </svg>

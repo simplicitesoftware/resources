@@ -32,7 +32,7 @@
 		},
 		{
 			"name": "AI integrations",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module_ai@master/resources/Disposition/default/ai_module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/ai.svg",
 			"description": "Currently compatible with Mistral AI and ChaGPT. Functionalities: Chatbot, Module generation, Test data generation, Graph generation.",
 			"module_name": "AIBySimplicite",
 			"settings_by_platform": {
@@ -59,7 +59,7 @@
 		},
 		{
 			"name": "In App Designer Guides",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-inappguides@master/resources/Disposition/default/inappguides-logo.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/guides.svg",
 			"description": "In App Designer Guides",
 			"module_name": "InAppGuides",
 			"url": "https://github.com/simplicitesoftware/module-inappguides",
@@ -68,7 +68,7 @@
 		},
 		{
 			"name": "Modificator",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-modificator@master/resources/Disposition/default/modificator-logo.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/modificator-logo.svg",
 			"description": "Let power users update translations and lists of values.",
 			"module_name": "Modificator",
 			"url": "https://github.com/simplicitesoftware/module-modificator",
@@ -88,7 +88,7 @@
 		},
 		{
 			"name": "Hardened security",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-modificator@master/resources/Disposition/default/modificator-logo.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/modificator.svg",
 			"description": "Apply enhanced app-level security guidelines (does NOT apply infrastructure / reverse proxy / server level security guidelines). Please read module description before clearing the cache.",
 			"module_name": "SimSecure",
 			"url": "https://github.com/simplicitesoftware/module-SimSecure",
@@ -106,7 +106,7 @@
 		},
 		{
 			"name": "Trello integration",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-trello@master/resources/Disposition/default/trello-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/trello.svg",
 			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-trello@master/resources/Disposition/default/trello-module-screenshot.png",
 			"description": "Trello integration examples (external object, business object, webhook)",
 			"module_name": "Trello",
@@ -115,7 +115,7 @@
 		},
 		{
 			"name": "Slack integration",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-slack@master/resources/Disposition/default/slack-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/slack.svg",
 			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-slack@master/resources/Disposition/default/slack-module-screenshot.png",
 			"description": "Slack integration examples (external object, webhook)",
 			"module_name": "Slack",
@@ -124,7 +124,7 @@
 		},
 		{
 			"name": "ElasticSearch Indexer",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-elasticsearchindexer@master/resources/Disposition/default/elasticsearch-logo.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/elasticsearch.svg",
 			"description": "ElasticSearch integration example",
 			"module_name": "ElasticSearchIndexer",
 			"url": "https://github.com/simplicitesoftware/module-elasticsearchindexer",
@@ -132,7 +132,7 @@
 		},
 		{
 			"name": "CMS",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-cms@master/resources/Disposition/default/cms-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/cms.svg",
 			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-cms@master/resources/Disposition/default/cms-module-screenshot.png",
 			"description": "Content Management System (grapejs integration)",
 			"module_name": "CMS",
@@ -141,7 +141,7 @@
 		},
 		{
 			"name": "SalesForce remote objects",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-salesforce@master/resources/Disposition/default/salesforce-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/salesforce.svg",
 			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-salesforce@master/resources/Disposition/default/salesforce-module-screenshot.png",
 			"description": "SalesForce remote objects examples (business objects)",
 			"module_name": "SalesForce",
@@ -150,7 +150,7 @@
 		},
 		{
 			"name": "OpenDataSoft remote objects",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-opendatasoft@master/resources/Disposition/default/opendatasoft-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/ods.svg",
 			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-opendatasoft@master/resources/Disposition/default/opendatasoft-module-screenshot.png",
 			"description": "OpenDataSoft remote objects examples (business objects)",
 			"module_name": "OpenDataSoft",
@@ -159,7 +159,7 @@
 		},
 		{
 			"name": "La Poste",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-SimLaPoste@master/resources/Disposition/default/module-laposte.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/laposte-datanova.svg",
 			"description": "La Poste Datanova's integrations (Postal Codes Service Object)",
 			"module_name": "SimLaPoste",
 			"url": "https://github.com/simplicitesoftware/module-SimLaPoste",
@@ -223,7 +223,7 @@
 		},
 		{
 			"name": "Theme Etat Français",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-themeetat@master/resources/Disposition/default/themeetat-module.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/marianne.svg",
 			"description": "Theme Etat inspiré du Système de Design de l'Etat Français (DSFR)",
 			"module_name": "ThemeEtat",
 			"url": "https://github.com/simplicitesoftware/module-themeetat",
@@ -237,7 +237,7 @@
 		},
 		{
 			"name": "OpenAPI / Swagger tools",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-openapitools@master/resources/Disposition/default/openapi.svg",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/openapi.svg",
 			"description": "OpenAPI / Swagger tools",
 			"url": "https://github.com/simplicitesoftware/module-openapitools",
 			"module_name": "OpenAPITools",

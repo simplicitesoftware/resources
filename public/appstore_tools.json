@@ -281,6 +281,15 @@
 			"module_name": "DocuSignLibs",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-docusign-libs.git\" } }",
 			"min_version": "7.0"
+		},
+		{
+			"name": "Fun pack",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
+			"description": "Easter eggs for Simplicité",
+			"url": "https://github.com/simplicitesoftware/module-simfunpack",
+			"module_name": "SimFunPack",
+			"module_settings": "{ \"type\": \"git\", \"branch\": \"master\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-simfunpack\" } }",
+			"min_version": "7.0"
 		}
 	]
 }

@@ -258,6 +258,9 @@
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
 			"description": "Pack of additional themes.",
 			"module_name": "SimThemes",
+			"settings_by_platform": {
+				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }"
+			},
 			"url": "https://github.com/simplicitesoftware/module-theming.git",
 			"settings_by_platform": {
 				">=6.1": "{ \"type\": \"git\", \"branch\": \"master\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-theming.git\" } }"

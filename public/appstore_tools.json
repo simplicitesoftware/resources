@@ -3,18 +3,6 @@
 	"name": "Tools",
 	"apps": [
 		{
-			"name": "Adapters",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
-			"description": "Import an app's data model from another app (open an issue on github for extra  app / format support)",
-			"module_name": "SimAdapters",
-			"settings_by_platform": {
-				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }",
-				"~5": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }"
-			},
-			"url": "https://simplicitesoftware.github.io/module-SimAdapters",
-			"module_settings": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }"
-		},
-		{
 			"name": "Features",
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
 			"description": "Implementation of major features for testing purposes",
@@ -29,6 +17,42 @@
 			},
 			"url": "https://github.com/simplicitesoftware/module-SimFeatures",
 			"module_settings": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }"
+		},
+		{
+			"name": "Adapters",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/icon/icon.svg",
+			"description": "Import an app's data model from another app (open an issue on github for extra  app / format support)",
+			"module_name": "SimAdapters",
+			"settings_by_platform": {
+				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }",
+				"~5": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }"
+			},
+			"url": "https://simplicitesoftware.github.io/module-SimAdapters",
+			"module_settings": "{ \"type\": \"git\", \"branch\": \"5.3\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimAdapters.git\" } }"
+		},
+		{
+			"name": "In App Designer Guides",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/guides.svg",
+			"description": "In App Designer Guides",
+			"module_name": "InAppGuides",
+			"url": "https://github.com/simplicitesoftware/module-inappguides",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-inappguides.git\" } }",
+			"min_version": "6.3"
+		},
+		{
+			"name": "Theme Etat Français",
+			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/marianne.svg",
+			"description": "Theme Etat inspiré du Système de Design de l'Etat Français (DSFR)",
+			"module_name": "ThemeEtat",
+			"url": "https://github.com/simplicitesoftware/module-themeetat",
+			"settings_by_platform": {
+				"~5": "{ \"type\": \"git\", \"branch\": \"master\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }",
+				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }",
+				"~7": "{ \"type\": \"git\", \"branch\": \"v7\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }"
+			},
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }",
+			"min_version": "5.2",
+			"max_version": "5.3"
 		},
 		{
 			"name": "AI integrations",
@@ -56,15 +80,6 @@
 			},
 			"module_settings": "",
 			"min_version": "6.0"
-		},
-		{
-			"name": "In App Designer Guides",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/guides.svg",
-			"description": "In App Designer Guides",
-			"module_name": "InAppGuides",
-			"url": "https://github.com/simplicitesoftware/module-inappguides",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-inappguides.git\" } }",
-			"min_version": "6.3"
 		},
 		{
 			"name": "Modificator",
@@ -220,21 +235,6 @@
 			"url": "https://community.simplicite.io/t/pdf-publication/2159/3",
 			"module_name": "Html2Pdf",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-html2pdf.git\" } }"
-		},
-		{
-			"name": "Theme Etat Français",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/marianne.svg",
-			"description": "Theme Etat inspiré du Système de Design de l'Etat Français (DSFR)",
-			"module_name": "ThemeEtat",
-			"url": "https://github.com/simplicitesoftware/module-themeetat",
-			"settings_by_platform": {
-				"~5": "{ \"type\": \"git\", \"branch\": \"master\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }",
-				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }",
-				"~7": "{ \"type\": \"git\", \"branch\": \"v7\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }"
-			},
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-themeetat.git\" } }",
-			"min_version": "5.2",
-			"max_version": "5.3"
 		},
 		{
 			"name": "OpenAPI / Swagger tools",

@@ -67,56 +67,6 @@
 			"max_version": "5.3"
 		},
 		{
-			"name": "Pizzeria demo",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/pizzeria.svg",
-			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-pizzeria@master/resources/Disposition/default/pizzeria-module-screenshot.png",
-			"description": "Pizzeria management demo",
-			"module_name": "Pizzeria",
-			"url": "https://github.com/simplicitesoftware/module-pizzeria",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-pizzeria.git\" } }",
-			"max_version": "5.3"
-		},
-		{
-			"name": "Velib demo",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/velib.svg",
-			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-velibdemo@master/resources/Disposition/default/velibdemo-module-screenshot.png",
-			"description": "Velib (Paris free floating bikes service) demo",
-			"module_name": "VelibDemo",
-			"url": "https://github.com/simplicitesoftware/module-velibdemo",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-velibdemo.git\" } }",
-			"max_version": "5.3"
-		},
-		{
-			"name": "Restaurants rating backend with NodeRED frontend",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/restaurants.svg",
-			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-restaurants@master/resources/Disposition/default/restaurants-module-screenshot.png",
-			"description": "Restaurants rating demo (backend) + NodeRED nodes for the frontend",
-			"module_name": "RestaurantsDemo",
-			"url": "https://github.com/simplicitesoftware/module-restaurants",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-restaurants.git\" } }",
-			"max_version": "5.3"
-		},
-		{
-			"name": "Q&A",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/qa.svg",
-			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-questionsandanswers@master/resources/Disposition/default/qa-module-screenshot.png",
-			"description": "Questions and Answers (backend + frontend)",
-			"module_name": "QuestionsAndAnswers",
-			"url": "https://github.com/simplicitesoftware/module-questionsandanswers",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-questionsandanswers.git\" } }",
-			"max_version": "5.3"
-		},
-		{
-			"name": "Burger shop",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/burgers.svg",
-			"screenshot": "https://cdn.jsdelivr.net/gh/simplicitesoftware/module-burgers@master/resources/Disposition/default/burgers-module-screenshot.png",
-			"description": "Burger shop (backend + frontend)",
-			"module_name": "Burgers",
-			"url": "https://github.com/simplicitesoftware/module-burgers",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-burgers.git\" } }",
-			"max_version": "5.3"
-		},
-		{
 			"name": "Customer Relationship Management",
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/crm.svg",
 			"description": "Example CRM module",

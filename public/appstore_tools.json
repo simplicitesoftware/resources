@@ -266,15 +266,6 @@
 			"min_version": "6.1"
 		},
 		{
-			"name": "Chatbot",
-			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/chatbot.svg",
-			"description": "Customisable chatbot (widget and API)",
-			"url": "https://github.com/simplicitesoftware/module-chatbot",
-			"module_name": "Chatbot",
-			"module_settings": "{ \"type\": \"git\", \"branch\": \"main\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-chatbot.git\" } }",
-			"min_version": "7.0"
-		},
-		{
 			"name": "DocuSign SDK",
 			"logo": "https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/appstores_images/docusign.svg",
 			"description": "Bundle of DocuSign SDK for Simplicité",

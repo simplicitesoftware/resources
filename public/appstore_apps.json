@@ -80,7 +80,11 @@
 			"description": "Hotel room booking example",
 			"module_name": "Booking",
 			"url": "https://github.com/simplicitesoftware/module-booking",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-booking.git\" }}"
+			"module_settings": {
+				"~5": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-booking.git\" } }",
+				"~6": "{ \"type\": \"git\", \"branch\": \"v6\" , \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-booking.git\" } }",
+				"~7": "{ \"type\": \"git\", \"branch\": \"v7\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-booking.git\" } }"
+			}
 		},
 		{
 			"name": "Announce management",
